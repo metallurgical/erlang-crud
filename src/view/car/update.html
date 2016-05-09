@@ -1,0 +1,16 @@
+{% include 'car/header.html' %}
+<br/>
+{% include 'car/menu.html' %}
+<hr/>
+<h3>Update form</h3>
+<form action="{% url action="update"%}" method="POST">
+	<label>Type of Car</label>
+	<input type="text" class="form-control" name="type" value="{{ car.type }}">
+	<br/>
+	<label>Color</label>
+	<input type="text" class="form-control" name="color" value="{{ car.color }}">
+	<br/>
+	<input type="hidden" name="id" value="{{ car.id }}">
+	<input type="submit" class="btn btn-success" value="Save">
+</form>
+{% include 'car/footer.html' %}

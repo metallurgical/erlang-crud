@@ -1,0 +1,15 @@
+{% include 'car/header.html' %}
+<br/>
+{% include 'car/menu.html' %}
+<hr/>
+<h3>Create form</h3>
+<form action="/car/create" method="POST">
+	<label>Type of Car</label>
+	<input type="text" class="form-control" name="type">
+	<br/>
+	<label>Color</label>
+	<input type="text" class="form-control" name="color">
+	<br/>
+	<input type="submit" class="btn btn-success" value="Save">
+</form>
+{% include 'car/footer.html' %}

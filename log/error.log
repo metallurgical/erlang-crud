@@ -1,0 +1,256 @@
+2016-05-09 12:37:31.987 [error] <0.268.0> GET / [crud] 404 13ms
+2016-05-09 12:53:01.703 [error] <0.345.0> GET /car/create [crud] 404 13ms
+2016-05-09 13:10:28.734 [error] <0.413.0> GET /car/create [crud] 404 30ms
+2016-05-09 13:17:35.477 [error] <0.315.0> GET /car/create [crud] 404 21ms
+2016-05-09 13:20:28.193 [error] <0.337.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{{20,15},erlydtl_scanner,{illegal_char,43}}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:20:41.633 [error] <0.340.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{{20,13},erlydtl_scanner,{illegal_char,43}}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:20:48.110 [error] <0.343.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{33,erlydtl_parser,
+                           ["syntax error before: ",[]]}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:20:55.377 [error] <0.346.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{33,erlydtl_parser,
+                           ["syntax error before: ",[]]}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:21:18.338 [error] <0.355.0> GET /car/create [crud] 404 23ms
+2016-05-09 13:22:22.849 [error] <0.358.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{34,erlydtl_parser,
+                           ["syntax error before: ",[]]}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:22:25.227 [error] <0.359.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{34,erlydtl_parser,
+                           ["syntax error before: ",[]]}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:27:51.991 [error] <0.395.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{{21,14},erlydtl_scanner,{illegal_char,43}}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 14:00:18.634 [error] <0.445.0> GET /car/create [crud] 404 36ms
+2016-05-09 14:06:07.749 [error] <0.526.0>@boss_web_controller:call_controller_action:319 Error in controller error:function_clause Stacktrace: [{crud_car_controller,save,['GET',[],
+                          {crud_car_controller,
+                              {simple_bridge_request_wrapper,
+                                  mochiweb_request_bridge,
+                                  {mochicow_request,#Port<0.30702>,'GET',
+                                      "/car/save?type=&color=",'HTTP/1.1',
+                                      {9,
+                                       {"host",
+                                        {"host","localhost:8001"},
+                                        {"connection",
+                                         {"connection","keep-alive"},
+                                         {"accept",
+                                          {"accept",
+                                           "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},
+                                          nil,
+                                          {"accept-encoding",
+                                           {"accept-encoding",
+                                            "gzip, deflate, sdch"},
+                                           nil,
+                                           {"accept-language",
+                                            {"accept-language",
+                                             "en-US,en;q=0.8"},
+                                            nil,nil}}},
+                                         {"cookie",
+                                          {"cookie",
+                                           "Profiler=open; connect.sid=s%3A80Gzun2u_-1lmrIN5vt3namVI9MJUQV0.TtpS3eplLHT8A4XpKF8YedxJYPTQYWkmPWKzg3HMAqM; PHPSESSID=8mf8ppovsi59ulpvdtugc64di3; __atuvc=3%7C16; language=en; currency=USD; SID=nonode@nohost-259646713185873810545128483453369133934; _ga=GA1.1.1215438066.1457924905; __utma=111872281.1215438066.1457924905.1462414769.1462524836.14; __utmc=111872281; __utmz=111872281.1460340314.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ci_session=e69da837dab54690e4183b6f552fba8b90e1f2ba"},
+                                          nil,nil}},
+                                        {"upgrade-insecure-requests",
+                                         {"upgrade-insecure-requests","1"},
+                                         {"referer",
+                                          {"referer",
+                                           "http://localhost:8001/car/create"},
+                                          nil,nil},
+                                         {"user-agent",
+                                          {"user-agent",
+                                           "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36"},
+                                          nil,nil}}}},
+                                      <<>>},
+                                  false,[],[],none}}],[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,11}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]}]
+2016-05-09 14:06:07.752 [error] <0.526.0> Error in controller, see console.log for details
+
+2016-05-09 14:06:07.926 [error] <0.526.0> GET /car/save [crud] 500 193ms
+2016-05-09 14:06:24.487 [error] <0.540.0> POST /car/save [crud] 404 17ms
+2016-05-09 14:06:52.864 [error] <0.551.0> POST /car/save [crud] 404 19ms
+2016-05-09 14:06:58.907 [error] <0.554.0> POST /car/save [crud] 404 17ms
+2016-05-09 14:09:30.956 [error] <0.557.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/crud_car_controller.erl" -> [{"c:/erlang/crud/src/controller/crud_car_controller.erl",[{12,erl_lint,{undefined_function,{post_param,1}}}]}]
+2016-05-09 14:09:35.101 [error] <0.561.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/crud_car_controller.erl" -> [{"c:/erlang/crud/src/controller/crud_car_controller.erl",[{12,erl_lint,{undefined_function,{post_param,1}}}]}]
+2016-05-09 14:12:03.036 [error] <0.569.0> POST /car/save [crud] 404 22ms
+2016-05-09 14:12:14.502 [error] <0.572.0> POST /car/save [crud] 404 24ms
+2016-05-09 14:12:58.713 [error] <0.578.0> POST /car/save [crud] 404 17ms
+2016-05-09 14:14:33.560 [error] <0.587.0> POST /car/save [crud] 404 21ms
+2016-05-09 14:16:54.594 [error] <0.599.0>@boss_web_controller:call_controller_action:319 Error in controller error:{badmatch,{ok,{car,"car-3",undefined,undefined}}} Stacktrace: [{crud_car_controller,create,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,14}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]}]
+2016-05-09 14:16:54.598 [error] <0.599.0> Error in controller, see console.log for details
+
+2016-05-09 14:16:54.602 [error] <0.599.0> POST /car/create [crud] 500 25ms
+2016-05-09 14:34:43.660 [error] <0.677.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,delete,["car-6"],[]},{crud_car_controller,delete,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,18}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 14:34:43.663 [error] <0.677.0> Error in controller, see console.log for details
+
+2016-05-09 14:34:43.665 [error] <0.677.0> GET /car/delete/car-6 [crud] 500 17ms
+2016-05-09 15:13:39.631 [error] <0.718.0>@boss_web_controller:call_controller_action:319 Error in controller error:function_clause Stacktrace: [{crud_car_controller,update,['GET',
+                            ["car-2"],
+                            {crud_car_controller,
+                             {simple_bridge_request_wrapper,
+                              mochiweb_request_bridge,
+                              {mochicow_request,#Port<0.36325>,'GET',
+                               "/car/update/car-2",'HTTP/1.1',
+                               {9,
+                                {"host",
+                                 {"host","localhost:8001"},
+                                 {"connection",
+                                  {"connection","keep-alive"},
+                                  {"accept",
+                                   {"accept",
+                                    "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},
+                                   nil,
+                                   {"accept-encoding",
+                                    {"accept-encoding","gzip, deflate, sdch"},
+                                    nil,
+                                    {"accept-language",
+                                     {"accept-language","en-US,en;q=0.8"},
+                                     nil,nil}}},
+                                  {"cookie",
+                                   {"cookie",
+                                    "Profiler=open; connect.sid=s%3A80Gzun2u_-1lmrIN5vt3namVI9MJUQV0.TtpS3eplLHT8A4XpKF8YedxJYPTQYWkmPWKzg3HMAqM; PHPSESSID=8mf8ppovsi59ulpvdtugc64di3; __atuvc=3%7C16; language=en; currency=USD; SID=nonode@nohost-259646713185873810545128483453369133934; _ga=GA1.1.1215438066.1457924905; __utma=111872281.1215438066.1457924905.1462414769.1462524836.14; __utmc=111872281; __utmz=111872281.1460340314.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%220c02b3d16ff2bb26b6116bf0018d5a14%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A3%3A%22%3A%3A1%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A108%3A%22Mozilla%2F5.0+%28Windows+NT+6.3%3B+WOW64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F50.0.2661.94+Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1462777281%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Dc06808bf84f375ba07acf714c6e5a17a82a5b07f"},
+                                   nil,nil}},
+                                 {"upgrade-insecure-requests",
+                                  {"upgrade-insecure-requests","1"},
+                                  {"referer",
+                                   {"referer","http://localhost:8001/"},
+                                   nil,nil},
+                                  {"user-agent",
+                                   {"user-agent",
+                                    "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36"},
+                                   nil,nil}}}},
+                               <<>>},
+                              false,[],[],none}}],[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,21}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]}]
+2016-05-09 15:13:39.636 [error] <0.718.0> Error in controller, see console.log for details
+
+2016-05-09 15:13:39.640 [error] <0.718.0> GET /car/update/car-2 [crud] 500 19ms
+2016-05-09 15:13:57.815 [error] <0.720.0> GET /car/update/car-2 [crud] 404 145ms
+2016-05-09 15:14:58.148 [error] <0.724.0> GET /car/update/car-2 [crud] 404 88ms
+2016-05-09 15:17:57.957 [error] <0.767.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,save_record,[{car,"brown1","saga1","brown1"}],[]},{crud_car_controller,update,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,29}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 15:17:57.962 [error] <0.767.0> Error in controller, see console.log for details
+
+2016-05-09 15:17:58.028 [error] <0.767.0> POST /car/update [crud] 500 138ms
+2016-05-09 15:18:18.226 [error] <0.774.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,save_record,[{car,"brown1","saga1","brown1"}],[]},{crud_car_controller,update,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,29}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 15:18:18.228 [error] <0.774.0> Error in controller, see console.log for details
+
+2016-05-09 15:18:18.231 [error] <0.774.0> POST /car/update [crud] 500 21ms
+2016-05-09 15:31:44.522 [error] <0.808.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,new,["car-8"],[]},{crud_car_controller,update,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,31}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 15:31:44.527 [error] <0.808.0> Error in controller, see console.log for details
+
+2016-05-09 15:31:44.527 [error] <0.808.0> POST /car/update [crud] 500 39ms
+2016-05-09 15:55:51.407 [error] <0.889.0>@boss_web_controller_render:render_with_template:272 Error in view crud_view_car_update_html error:badarg Stacktrace: [{lists,keyfind,[car,1,
+               [{"_vars",
+                 [{"_lang","en"},
+                  {"_session",[]},
+                  {"_req",
+                   {simple_bridge_request_wrapper,mochiweb_request_bridge,
+                    {mochicow_request,#Port<0.42823>,'POST',"/car/update",
+                     'HTTP/1.1',
+                     {13,
+                      {"host",
+                       {"host","localhost:8001"},
+                       {"connection",
+                        {"connection","keep-alive"},
+                        {"cache-control",
+                         {"cache-control","max-age=0"},
+                         {"accept",
+                          {"accept",
+                           "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},
+                          nil,
+                          {"accept-encoding",
+                           {"accept-encoding","gzip, deflate"},
+                           nil,
+                           {"accept-language",
+                            {"accept-language","en-US,en;q=0.8"},
+                            nil,nil}}},
+                         nil},
+                        {"content-length",
+                         {"content-length","31"},
+                         nil,
+                         {"content-type",
+                          {"content-type","application/x-www-form-urlencoded"},
+                          nil,
+                          {"cookie",
+                           {"cookie",
+                            "Profiler=open; connect.sid=s%3A80Gzun2u_-1lmrIN5vt3namVI9MJUQV0.TtpS3eplLHT8A4XpKF8YedxJYPTQYWkmPWKzg3HMAqM; PHPSESSID=8mf8ppovsi59ulpvdtugc64di3; __atuvc=3%7C16; language=en; currency=USD; SID=nonode@nohost-259646713185873810545128483453369133934; _ga=GA1.1.1215438066.1457924905; __utma=111872281.1215438066.1457924905.1462414769.1462524836.14; __utmc=111872281; __utmz=111872281.1460340314.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%220c02b3d16ff2bb26b6116bf0018d5a14%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A3%3A%22%3A%3A1%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A108%3A%22Mozilla%2F5.0+%28Windows+NT+6.3%3B+WOW64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F50.0.2661.94+Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1462777281%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Dc06808bf84f375ba07acf714c6e5a17a82a5b07f"},
+                           nil,nil}}}},
+                       {"origin",
+                        {"origin","http://localhost:8001"},
+                        nil,
+                        {"upgrade-insecure-requests",
+                         {"upgrade-insecure-requests","1"},
+                         {"referer",
+                          {"referer","http://localhost:8001/car/update/car-2"},
+                          nil,nil},
+                         {"user-agent",
+                          {"user-agent",
+                           "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36"},
+                          nil,nil}}}}},
+                     <<"type=saga1&color=brown&id=car-2">>},
+                    false,[],[],none}},
+                  {"_base_url",[]}|
+                  {car,"car-2","saga","brown"}]},
+                {"_lang","en"},
+                {"_session",[]},
+                {"_req",
+                 {simple_bridge_request_wrapper,mochiweb_request_bridge,
+                  {mochicow_request,#Port<0.42823>,'POST',"/car/update",
+                   'HTTP/1.1',
+                   {13,
+                    {"host",
+                     {"host","localhost:8001"},
+                     {"connection",
+                      {"connection","keep-alive"},
+                      {"cache-control",
+                       {"cache-control","max-age=0"},
+                       {"accept",
+                        {"accept",
+                         "text/html,application/xhtml+xml,applicati...
+2016-05-09 15:55:51.413 [error] <0.889.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:function_clause Stacktrace: [{boss_web_controller_handle_request,process_result,[{boss_app_info,crud,[],
+                                                    "/static","/doc",all,
+                                                    [{crud_01_news,[]}],
+                                                    <0.261.0>,<0.262.0>,
+                                                    <0.264.0>,<0.265.0>,
+                                                    ["car"],
+                                                    [],
+                                                    ["crud_car_controller"]},
+                                                   {simple_bridge_request_wrapper,
+                                                    mochiweb_request_bridge,
+                                                    {mochicow_request,
+                                                     #Port<0.42823>,'POST',
+                                                     "/car/update",'HTTP/1.1',
+                                                     {13,
+                                                      {"host",
+                                                       {"host",
+                                                        "localhost:8001"},
+                                                       {"connection",
+                                                        {"connection",
+                                                         "keep-alive"},
+                                                        {"cache-control",
+                                                         {"cache-control",
+                                                          "max-age=0"},
+                                                         {"accept",
+                                                          {"accept",
+                                                           "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},
+                                                          nil,
+                                                          {"accept-encoding",
+                                                           {"accept-encoding",
+                                                            "gzip, deflate"},
+                                                           nil,
+                                                           {"accept-language",
+                                                            {"accept-language",
+                                                             "en-US,en;q=0.8"},
+                                                            nil,nil}}},
+                                                         nil},
+                                                        {"content-length",
+                                                         {"content-length",
+                                                          "31"},
+                                                         nil,
+                                                         {"content-type",
+                                                          {"content-type",
+                                                           "application/x-www-form-urlencoded"},
+                                                          nil,
+                                                          {"cookie",
+                                                           {"cookie",
+                                                            "Profiler=open; connect.sid=s%3A80Gzun2u_-1lmrIN5vt3namVI9MJUQV0.TtpS3eplLHT8A4XpKF8YedxJYPTQYWkmPWKzg3HMAqM; PHPSESSID=8mf8ppovsi59ulpvdtugc64di3; __atuvc=3%7C16; language=en; currency=USD; SID=nonode@nohost-259646713185873810545128483453369133934; _ga=GA1.1.1215438066.1457924905; __utma=111872281.1215438066.1457924905.1462414769.1462524836.14; __utmc=111872281; __utmz=111872281.1460340314.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%220c02b3d16ff2bb26b6116bf0018d5a14%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A3%3A%2...
+2016-05-09 16:10:07.933 [error] <0.900.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,new,[id,"car-2"],[]},{crud_car_controller,update,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,32}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 16:10:07.937 [error] <0.900.0> Error in controller, see console.log for details
+
+2016-05-09 16:10:07.947 [error] <0.900.0> POST /car/update [crud] 500 51ms

@@ -1,0 +1,36 @@
+{% include 'car/header.html' %}
+<br/>
+{% include 'car/menu.html' %}
+<hr/>
+<h3>List</h3>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>No.</th>
+			<th>Type</th>
+			<th>Color</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+	
+	{% if cars %}
+		{% for car in cars %}
+			<tr>
+				<td>{{ forloop.counter }}</td>
+				<td>{{ car.type }}</td>
+				<td>{{ car.color }}</td>
+				<td>
+				<a href="{% url action="delete/" %}{{ car.id }}">Delete</a> | 
+				<a href="{% url action="update/" %}{{ car.id }}">Edit</a></td>
+			</tr>
+		{% endfor %}
+	{% else %}
+			<tr>
+				<td colspan="3">No data</td>
+			</tr>
+	{% endif %}
+	</tbody>	
+</table>
+{% include 'car/footer.html' %}

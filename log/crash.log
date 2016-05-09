@@ -1,0 +1,40 @@
+2016-05-09 12:37:31 =ERROR REPORT====
+GET / [crud] 404 13ms2016-05-09 12:53:01 =ERROR REPORT====
+GET /car/create [crud] 404 13ms2016-05-09 13:10:28 =ERROR REPORT====
+GET /car/create [crud] 404 30ms2016-05-09 13:17:35 =ERROR REPORT====
+GET /car/create [crud] 404 21ms2016-05-09 13:21:18 =ERROR REPORT====
+GET /car/create [crud] 404 23ms2016-05-09 14:00:18 =ERROR REPORT====
+GET /car/create [crud] 404 36ms2016-05-09 14:06:07 =ERROR REPORT====
+"Error in controller, see console.log for details\n"
+2016-05-09 14:06:07 =ERROR REPORT====
+GET /car/save [crud] 500 193ms2016-05-09 14:06:24 =ERROR REPORT====
+POST /car/save [crud] 404 17ms2016-05-09 14:06:52 =ERROR REPORT====
+POST /car/save [crud] 404 19ms2016-05-09 14:06:58 =ERROR REPORT====
+POST /car/save [crud] 404 17ms2016-05-09 14:12:03 =ERROR REPORT====
+POST /car/save [crud] 404 22ms2016-05-09 14:12:14 =ERROR REPORT====
+POST /car/save [crud] 404 24ms2016-05-09 14:12:58 =ERROR REPORT====
+POST /car/save [crud] 404 17ms2016-05-09 14:14:33 =ERROR REPORT====
+POST /car/save [crud] 404 21ms2016-05-09 14:16:54 =ERROR REPORT====
+"Error in controller, see console.log for details\n"
+2016-05-09 14:16:54 =ERROR REPORT====
+POST /car/create [crud] 500 25ms2016-05-09 14:34:43 =ERROR REPORT====
+"Error in controller, see console.log for details\n"
+2016-05-09 14:34:43 =ERROR REPORT====
+GET /car/delete/car-6 [crud] 500 17ms2016-05-09 15:13:39 =ERROR REPORT====
+"Error in controller, see console.log for details\n"
+2016-05-09 15:13:39 =ERROR REPORT====
+GET /car/update/car-2 [crud] 500 19ms2016-05-09 15:13:57 =ERROR REPORT====
+GET /car/update/car-2 [crud] 404 145ms2016-05-09 15:14:58 =ERROR REPORT====
+GET /car/update/car-2 [crud] 404 88ms2016-05-09 15:17:57 =ERROR REPORT====
+"Error in controller, see console.log for details\n"
+2016-05-09 15:17:58 =ERROR REPORT====
+POST /car/update [crud] 500 138ms2016-05-09 15:18:18 =ERROR REPORT====
+"Error in controller, see console.log for details\n"
+2016-05-09 15:18:18 =ERROR REPORT====
+POST /car/update [crud] 500 21ms2016-05-09 15:31:44 =ERROR REPORT====
+"Error in controller, see console.log for details\n"
+2016-05-09 15:31:44 =ERROR REPORT====
+POST /car/update [crud] 500 39ms2016-05-09 16:10:07 =ERROR REPORT====
+"Error in controller, see console.log for details\n"
+2016-05-09 16:10:07 =ERROR REPORT====
+POST /car/update [crud] 500 51ms

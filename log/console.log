@@ -1,0 +1,1970 @@
+2016-05-09 12:35:11.719 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-05-09 12:35:11.844 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application crud
+2016-05-09 12:35:11.844 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/mail/crud_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 12:35:11.875 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/mail/crud_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 12:35:11.891 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/view/lib/tag_modules/crud_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 12:35:11.891 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/view/lib/filter_modules/crud_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 12:35:11.891 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:308 Compile Modules "src/view/lib/tag_html"  crud_view_lib_tags
+2016-05-09 12:35:16.830 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2016-05-09 12:35:16.923 [info] <0.7.0> Application lager started on node crud@USN
+2016-05-09 12:35:16.955 [info] <0.7.0> Application crypto started on node crud@USN
+2016-05-09 12:35:16.970 [info] <0.7.0> Application mimetypes started on node crud@USN
+2016-05-09 12:35:17.064 [info] <0.94.0> Starting Boss in development mode....
+
+2016-05-09 12:35:17.095 [info] <0.94.0>@boss_db:start:77 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2016-05-09 12:35:17.189 [info] <0.94.0> Starting master services on crud@USN
+
+2016-05-09 12:35:17.236 [info] <0.7.0> Application tinymq started on node crud@USN
+2016-05-09 12:35:17.330 [info] <0.94.0> SSL:[]
+
+2016-05-09 12:35:17.330 [info] <0.94.0> Starting cowboy... on crud@USN
+
+2016-05-09 12:35:17.345 [info] <0.7.0> Application cowlib started on node crud@USN
+2016-05-09 12:35:17.345 [info] <0.7.0> Application ranch started on node crud@USN
+2016-05-09 12:35:17.376 [info] <0.7.0> Application cowboy started on node crud@USN
+2016-05-09 12:35:17.376 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2016-05-09 12:35:17.517 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application crud
+2016-05-09 12:35:17.548 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:308 Compile Modules "src/view/lib/tag_html"  crud_view_lib_tags
+2016-05-09 12:35:17.658 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/priv/init/crud_01_news.erl" with options [{include_dirs,["c:/erlang/crud/include"]}] 
+2016-05-09 12:37:31.963 [notice] <0.268.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:37:31.974 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2016-05-09 12:37:31.974 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:37:31.978 [info] <0.268.0> Route: "/"Url
+[]
+2016-05-09 12:37:31.987 [error] <0.268.0> GET / [crud] 404 13ms
+2016-05-09 12:37:32.898 [notice] <0.270.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:40:07.934 [notice] <0.272.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:40:07.938 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:40:07.941 [info] <0.272.0> Route: "/car/list"Url
+[]
+2016-05-09 12:40:08.007 [info] <0.272.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 12:40:08.007 [notice] <0.272.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 12:40:08.181 [notice] <0.272.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:40:08.221 [info] <0.272.0> GET /car/list [crud] 200 274ms
+2016-05-09 12:40:48.043 [notice] <0.276.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:40:48.048 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:40:48.051 [info] <0.276.0> Route: "/car/list"Url
+[]
+2016-05-09 12:40:48.056 [notice] <0.276.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:40:48.058 [info] <0.276.0> GET /car/list [crud] 200 10ms
+2016-05-09 12:40:48.394 [notice] <0.278.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:40:51.213 [notice] <0.279.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:40:51.217 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:40:51.219 [info] <0.279.0> Route: "/"Url
+[]
+2016-05-09 12:40:51.219 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:40:51.250 [notice] <0.279.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:40:51.251 [info] <0.279.0> GET / [crud] 200 35ms
+2016-05-09 12:40:58.084 [notice] <0.282.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:40:58.087 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:40:58.093 [info] <0.282.0> Route: "/car/list"Url
+[]
+2016-05-09 12:40:58.103 [notice] <0.282.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:40:58.104 [info] <0.282.0> GET /car/list [crud] 200 18ms
+2016-05-09 12:48:12.695 [notice] <0.285.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:48:12.697 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:48:12.720 [info] <0.285.0> Route: "/car/list"Url
+[]
+2016-05-09 12:48:12.729 [notice] <0.285.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:48:12.731 [info] <0.285.0> GET /car/list [crud] 200 35ms
+2016-05-09 12:48:19.124 [notice] <0.288.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:48:19.127 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:48:19.129 [info] <0.288.0> Route: "/car/list"Url
+[]
+2016-05-09 12:48:19.138 [notice] <0.288.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:48:19.139 [info] <0.288.0> GET /car/list [crud] 200 13ms
+2016-05-09 12:48:31.216 [notice] <0.291.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:48:31.218 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:48:31.220 [info] <0.291.0> Route: "/car/list"Url
+[]
+2016-05-09 12:48:31.224 [info] <0.291.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 12:48:31.224 [notice] <0.291.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 12:48:31.241 [notice] <0.291.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:48:31.405 [info] <0.291.0> GET /car/list [crud] 200 169ms
+2016-05-09 12:49:10.050 [notice] <0.296.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:49:10.055 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:49:10.058 [info] <0.296.0> Route: "/car/list"Url
+[]
+2016-05-09 12:49:10.065 [notice] <0.296.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:49:10.104 [info] <0.296.0> GET /car/list [crud] 200 31ms
+2016-05-09 12:49:27.972 [notice] <0.301.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:49:27.974 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:49:27.976 [info] <0.301.0> Route: "/car/list"Url
+[]
+2016-05-09 12:49:27.981 [notice] <0.301.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:49:28.053 [info] <0.301.0> GET /car/list [crud] 200 60ms
+2016-05-09 12:49:29.358 [notice] <0.304.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:49:29.383 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:49:29.386 [info] <0.304.0> Route: "/car/list"Url
+[]
+2016-05-09 12:49:29.399 [notice] <0.304.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:49:29.413 [info] <0.304.0> GET /car/list [crud] 200 20ms
+2016-05-09 12:49:30.466 [notice] <0.305.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:49:30.477 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:49:30.479 [info] <0.305.0> Route: "/car/list"Url
+[]
+2016-05-09 12:49:30.488 [notice] <0.305.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:49:30.547 [info] <0.305.0> GET /car/list [crud] 200 34ms
+2016-05-09 12:49:31.560 [notice] <0.307.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:49:31.564 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:49:31.570 [info] <0.307.0> Route: "/car/list"Url
+[]
+2016-05-09 12:49:31.590 [notice] <0.307.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:49:31.621 [info] <0.307.0> GET /car/list [crud] 200 43ms
+2016-05-09 12:49:33.459 [notice] <0.309.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:49:33.460 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:49:33.461 [info] <0.309.0> Route: "/car/list"Url
+[]
+2016-05-09 12:49:33.468 [notice] <0.309.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:49:33.482 [info] <0.309.0> GET /car/list [crud] 200 11ms
+2016-05-09 12:49:35.443 [notice] <0.311.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:49:35.477 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:49:35.484 [info] <0.311.0> Route: "/car/list"Url
+[]
+2016-05-09 12:49:35.507 [notice] <0.311.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:49:35.549 [info] <0.311.0> GET /car/list [crud] 200 40ms
+2016-05-09 12:50:01.295 [notice] <0.316.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:50:01.296 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:50:01.298 [info] <0.316.0> Route: "/car/list"Url
+[]
+2016-05-09 12:50:01.308 [notice] <0.316.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:50:01.317 [info] <0.316.0> GET /car/list [crud] 200 17ms
+2016-05-09 12:50:02.516 [notice] <0.318.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:50:02.534 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:50:02.536 [info] <0.318.0> Route: "/car/list"Url
+[]
+2016-05-09 12:50:02.552 [notice] <0.318.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:50:02.585 [info] <0.318.0> GET /car/list [crud] 200 25ms
+2016-05-09 12:50:04.127 [notice] <0.320.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:50:04.147 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:50:04.152 [info] <0.320.0> Route: "/car/list"Url
+[]
+2016-05-09 12:50:04.163 [notice] <0.320.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:50:04.193 [info] <0.320.0> GET /car/list [crud] 200 28ms
+2016-05-09 12:50:05.361 [notice] <0.322.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:50:05.387 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:50:05.393 [info] <0.322.0> Route: "/car/list"Url
+[]
+2016-05-09 12:50:05.400 [notice] <0.322.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:50:05.418 [info] <0.322.0> GET /car/list [crud] 200 25ms
+2016-05-09 12:50:06.427 [notice] <0.321.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:50:06.437 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:50:06.447 [info] <0.321.0> Route: "/car/list"Url
+[]
+2016-05-09 12:50:06.463 [notice] <0.321.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:50:06.484 [info] <0.321.0> GET /car/list [crud] 200 32ms
+2016-05-09 12:50:07.753 [notice] <0.325.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:50:07.784 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:50:07.793 [info] <0.325.0> Route: "/car/list"Url
+[]
+2016-05-09 12:50:07.801 [notice] <0.325.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:50:07.819 [info] <0.325.0> GET /car/list [crud] 200 25ms
+2016-05-09 12:51:25.906 [notice] <0.329.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:51:25.908 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:51:25.910 [info] <0.329.0> Route: "/car/list"Url
+[]
+2016-05-09 12:51:25.915 [notice] <0.329.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:51:25.941 [info] <0.329.0> GET /car/list [crud] 200 34ms
+2016-05-09 12:51:56.490 [notice] <0.335.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:51:56.492 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:51:56.494 [info] <0.335.0> Route: "/car/list"Url
+[]
+2016-05-09 12:51:56.499 [notice] <0.335.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:51:56.540 [info] <0.335.0> GET /car/list [crud] 200 35ms
+2016-05-09 12:52:53.496 [notice] <0.339.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:52:53.499 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:52:53.501 [info] <0.339.0> Route: "/car/list"Url
+[]
+2016-05-09 12:52:53.506 [notice] <0.339.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:52:53.537 [info] <0.339.0> GET /car/list [crud] 200 39ms
+2016-05-09 12:53:01.632 [notice] <0.345.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:53:01.634 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:53:01.636 [info] <0.345.0> Route: "/car/create"Url
+[]
+2016-05-09 12:53:01.640 [notice] <0.345.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:53:01.640 [notice] <0.345.0>@boss_controller_adapter_pmod:action:99 [ChicagoBoss] The function crud_car_controller:create/2 is not exported, if in doubt add -export([create/2])) to the module
+2016-05-09 12:53:01.703 [error] <0.345.0> GET /car/create [crud] 404 13ms
+2016-05-09 12:53:06.816 [notice] <0.347.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:53:06.826 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:53:06.836 [info] <0.347.0> Route: "/"Url
+[]
+2016-05-09 12:53:06.837 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:53:06.843 [notice] <0.347.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:53:06.918 [info] <0.347.0> GET / [crud] 200 25ms
+2016-05-09 12:53:29.362 [notice] <0.353.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:53:29.364 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:53:29.369 [info] <0.353.0> Route: "/"Url
+[]
+2016-05-09 12:53:29.369 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:53:29.375 [notice] <0.353.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:53:29.407 [info] <0.353.0> GET / [crud] 200 43ms
+2016-05-09 12:53:35.875 [notice] <0.359.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:53:35.877 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:53:35.878 [info] <0.359.0> Route: "/"Url
+[]
+2016-05-09 12:53:35.878 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:53:35.884 [notice] <0.359.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:53:35.988 [info] <0.359.0> GET / [crud] 200 40ms
+2016-05-09 12:54:46.167 [notice] <0.365.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:54:46.169 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:54:46.171 [info] <0.365.0> Route: "/"Url
+[]
+2016-05-09 12:54:46.171 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:54:46.180 [notice] <0.365.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:54:46.281 [info] <0.365.0> GET / [crud] 200 43ms
+2016-05-09 12:55:16.287 [notice] <0.371.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:55:16.289 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:55:16.291 [info] <0.371.0> Route: "/"Url
+[]
+2016-05-09 12:55:16.291 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:55:16.301 [notice] <0.371.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:55:16.352 [info] <0.371.0> GET / [crud] 200 48ms
+2016-05-09 12:56:45.230 [notice] <0.377.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:56:45.233 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:56:45.235 [info] <0.377.0> Route: "/"Url
+[]
+2016-05-09 12:56:45.236 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:56:45.246 [notice] <0.377.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:56:45.336 [info] <0.377.0> GET / [crud] 200 57ms
+2016-05-09 12:57:55.126 [notice] <0.383.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:57:55.130 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:57:55.133 [info] <0.383.0> Route: "/"Url
+[]
+2016-05-09 12:57:55.133 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:57:55.202 [notice] <0.383.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/model/car.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 12:57:55.210 [info] <0.383.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,10},car},{',',{1,13}},{'[',{1,15}},{var,{1,16},'Id'},{',',{1,18}},{var,{1,20},'Type'},{',',{1,24}},{var,{1,26},'Color'},{']',{1,31}},{')',{1,33}},{dot,{1,34}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,11},export_all},{')',{2,22}},{dot,{2,23}}]
+2016-05-09 12:57:55.216 [notice] <0.383.0>@boss_record_compiler:make_generated_forms:225 Module "car" Parameters ['Id','Type','Color'] Attributes[{compile,export_all}]
+2016-05-09 12:57:55.269 [notice] <0.383.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:57:55.302 [info] <0.383.0> GET / [crud] 200 147ms
+2016-05-09 12:59:29.839 [notice] <0.389.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:59:29.842 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:59:29.847 [info] <0.389.0> Route: "/"Url
+[]
+2016-05-09 12:59:29.847 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:59:29.856 [notice] <0.389.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:59:30.000 [info] <0.389.0> GET / [crud] 200 59ms
+2016-05-09 12:59:41.178 [notice] <0.393.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 12:59:41.219 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 12:59:41.224 [info] <0.393.0> Route: "/"Url
+[]
+2016-05-09 12:59:41.224 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 12:59:41.254 [notice] <0.393.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 12:59:41.370 [info] <0.393.0> GET / [crud] 200 187ms
+2016-05-09 13:05:03.136 [notice] <0.400.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:05:03.140 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:05:03.144 [info] <0.400.0> Route: "/"Url
+[]
+2016-05-09 13:05:03.144 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:05:03.167 [notice] <0.400.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:05:03.185 [info] <0.400.0> GET / [crud] 200 40ms
+2016-05-09 13:07:40.170 [notice] <0.405.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:07:40.177 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:07:40.179 [info] <0.405.0> Route: "/"Url
+[]
+2016-05-09 13:07:40.179 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:07:40.190 [notice] <0.405.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:07:40.199 [info] <0.405.0> GET / [crud] 200 20ms
+2016-05-09 13:10:25.298 [notice] <0.412.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:10:25.304 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:10:25.306 [info] <0.412.0> Route: "/"Url
+[]
+2016-05-09 13:10:25.306 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:10:25.316 [notice] <0.412.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:10:25.325 [info] <0.412.0> GET / [crud] 200 19ms
+2016-05-09 13:10:28.678 [notice] <0.413.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:10:28.701 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:10:28.706 [info] <0.413.0> Route: "/car/create"Url
+[]
+2016-05-09 13:10:28.722 [notice] <0.413.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:10:28.722 [notice] <0.413.0>@boss_controller_adapter_pmod:action:99 [ChicagoBoss] The function crud_car_controller:create/2 is not exported, if in doubt add -export([create/2])) to the module
+2016-05-09 13:10:28.734 [error] <0.413.0> GET /car/create [crud] 404 30ms
+2016-05-09 13:11:59.836 [notice] <0.422.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:11:59.837 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:11:59.840 [info] <0.422.0> Route: "/"Url
+[]
+2016-05-09 13:11:59.840 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:11:59.846 [info] <0.422.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 13:11:59.846 [notice] <0.422.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 13:11:59.863 [notice] <0.422.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:11:59.870 [info] <0.422.0> GET / [crud] 200 33ms
+2016-05-09 13:12:14.034 [notice] <0.428.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:12:14.055 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:12:14.073 [info] <0.428.0> Route: "/"Url
+[]
+2016-05-09 13:12:14.073 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:12:14.177 [info] <0.428.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 13:12:14.177 [notice] <0.428.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 13:12:14.211 [notice] <0.428.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:12:14.226 [info] <0.428.0> GET / [crud] 200 181ms
+2016-05-09 13:12:18.906 [notice] <0.431.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:12:18.943 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:12:18.949 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:12:18.958 [info] <0.431.0> Route: "/"Url
+[]
+2016-05-09 13:12:18.973 [notice] <0.431.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:12:18.987 [info] <0.431.0> GET / [crud] 200 72ms
+2016-05-09 13:12:27.509 [notice] <0.436.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:12:27.510 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:12:27.511 [info] <0.436.0> Route: "/"Url
+[]
+2016-05-09 13:12:27.511 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:12:27.515 [info] <0.436.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 13:12:27.515 [notice] <0.436.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 13:12:27.540 [notice] <0.436.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:12:27.549 [info] <0.436.0> GET / [crud] 200 36ms
+2016-05-09 13:13:56.130 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2016-05-09 13:13:56.228 [info] <0.7.0> Application lager started on node crud@USN
+2016-05-09 13:13:56.251 [info] <0.7.0> Application crypto started on node crud@USN
+2016-05-09 13:13:56.310 [info] <0.7.0> Application mimetypes started on node crud@USN
+2016-05-09 13:13:56.473 [info] <0.94.0> Starting Boss in development mode....
+
+2016-05-09 13:13:56.517 [info] <0.94.0>@boss_db:start:77 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2016-05-09 13:13:56.706 [info] <0.94.0> Starting master services on crud@USN
+
+2016-05-09 13:13:56.766 [info] <0.7.0> Application tinymq started on node crud@USN
+2016-05-09 13:13:56.879 [info] <0.94.0> SSL:[]
+
+2016-05-09 13:13:56.887 [info] <0.94.0> Starting cowboy... on crud@USN
+
+2016-05-09 13:13:56.897 [info] <0.7.0> Application cowlib started on node crud@USN
+2016-05-09 13:13:56.942 [info] <0.7.0> Application ranch started on node crud@USN
+2016-05-09 13:13:57.025 [info] <0.7.0> Application cowboy started on node crud@USN
+2016-05-09 13:13:57.025 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2016-05-09 13:13:57.294 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application crud
+2016-05-09 13:13:57.360 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 13:13:57.383 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 13:13:57.492 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/model/car.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 13:13:57.492 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,10},car},{',',{1,13}},{'[',{1,15}},{var,{1,16},'Id'},{',',{1,18}},{var,{1,20},'Type'},{',',{1,24}},{var,{1,26},'Color'},{']',{1,31}},{')',{1,33}},{dot,{1,34}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,11},export_all},{')',{2,22}},{dot,{2,23}}]
+2016-05-09 13:13:57.493 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "car" Parameters ['Id','Type','Color'] Attributes[{compile,export_all}]
+2016-05-09 13:13:57.554 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:308 Compile Modules "src/view/lib/tag_html"  crud_view_lib_tags
+2016-05-09 13:13:58.062 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/priv/init/crud_01_news.erl" with options [{include_dirs,["c:/erlang/crud/include"]}] 
+2016-05-09 13:14:05.766 [notice] <0.274.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:14:05.775 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2016-05-09 13:14:05.775 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:14:05.776 [info] <0.274.0> Route: "/"Url
+[]
+2016-05-09 13:14:05.776 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:14:05.834 [notice] <0.274.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:14:05.878 [info] <0.274.0> GET / [crud] 200 104ms
+2016-05-09 13:14:07.566 [notice] <0.275.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:14:07.585 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:14:07.589 [info] <0.275.0> Route: "/"Url
+[]
+2016-05-09 13:14:07.589 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:14:07.597 [notice] <0.275.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:14:07.627 [info] <0.275.0> GET / [crud] 200 24ms
+2016-05-09 13:15:11.658 [notice] <0.287.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:15:11.661 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:15:11.667 [info] <0.287.0> Route: "/"Url
+[]
+2016-05-09 13:15:11.667 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:15:11.677 [notice] <0.287.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:15:11.694 [info] <0.287.0> GET / [crud] 200 23ms
+2016-05-09 13:15:37.941 [notice] <0.294.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:15:37.943 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:15:37.945 [info] <0.294.0> Route: "/"Url
+[]
+2016-05-09 13:15:37.945 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:15:37.954 [notice] <0.294.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:15:37.990 [info] <0.294.0> GET / [crud] 200 43ms
+2016-05-09 13:15:51.209 [notice] <0.300.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:15:51.214 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:15:51.220 [info] <0.300.0> Route: "/"Url
+[]
+2016-05-09 13:15:51.220 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:15:51.238 [notice] <0.300.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:15:51.368 [info] <0.300.0> GET / [crud] 200 152ms
+2016-05-09 13:16:14.707 [notice] <0.305.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:16:14.709 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:16:14.711 [info] <0.305.0> Route: "/"Url
+[]
+2016-05-09 13:16:14.711 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:16:14.721 [notice] <0.305.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:16:14.881 [info] <0.305.0> GET / [crud] 200 74ms
+2016-05-09 13:17:04.736 [notice] <0.309.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:17:04.738 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:17:04.740 [info] <0.309.0> Route: "/"Url
+[]
+2016-05-09 13:17:04.740 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:17:04.747 [notice] <0.309.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:17:04.795 [info] <0.309.0> GET / [crud] 200 54ms
+2016-05-09 13:17:35.453 [notice] <0.315.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:17:35.457 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:17:35.458 [info] <0.315.0> Route: "/car/create"Url
+[]
+2016-05-09 13:17:35.465 [notice] <0.315.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:17:35.465 [notice] <0.315.0>@boss_controller_adapter_pmod:action:99 [ChicagoBoss] The function crud_car_controller:create/2 is not exported, if in doubt add -export([create/2])) to the module
+2016-05-09 13:17:35.477 [error] <0.315.0> GET /car/create [crud] 404 21ms
+2016-05-09 13:17:38.726 [notice] <0.317.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:17:38.743 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:17:38.749 [info] <0.317.0> Route: "/"Url
+[]
+2016-05-09 13:17:38.749 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:17:38.764 [notice] <0.317.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:17:38.777 [info] <0.317.0> GET / [crud] 200 37ms
+2016-05-09 13:18:30.511 [notice] <0.329.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:18:30.514 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:18:30.516 [info] <0.329.0> Route: "/"Url
+[]
+2016-05-09 13:18:30.516 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:18:30.527 [notice] <0.329.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:18:30.538 [info] <0.329.0> GET / [crud] 200 22ms
+2016-05-09 13:18:37.959 [notice] <0.334.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:18:37.961 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:18:37.963 [info] <0.334.0> Route: "/"Url
+[]
+2016-05-09 13:18:37.963 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:18:37.975 [notice] <0.334.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:18:37.985 [info] <0.334.0> GET / [crud] 200 23ms
+2016-05-09 13:20:28.148 [notice] <0.337.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:20:28.152 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:20:28.153 [info] <0.337.0> Route: "/"Url
+[]
+2016-05-09 13:20:28.153 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:20:28.163 [notice] <0.337.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:20:28.193 [error] <0.337.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{{20,15},erlydtl_scanner,{illegal_char,43}}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:20:41.615 [notice] <0.340.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:20:41.617 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:20:41.619 [info] <0.340.0> Route: "/"Url
+[]
+2016-05-09 13:20:41.619 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:20:41.627 [notice] <0.340.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:20:41.633 [error] <0.340.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{{20,13},erlydtl_scanner,{illegal_char,43}}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:20:48.065 [notice] <0.343.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:20:48.070 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:20:48.078 [info] <0.343.0> Route: "/"Url
+[]
+2016-05-09 13:20:48.079 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:20:48.103 [notice] <0.343.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:20:48.110 [error] <0.343.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{33,erlydtl_parser,
+                           ["syntax error before: ",[]]}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:20:55.354 [notice] <0.346.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:20:55.356 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:20:55.358 [info] <0.346.0> Route: "/"Url
+[]
+2016-05-09 13:20:55.358 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:20:55.366 [notice] <0.346.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:20:55.377 [error] <0.346.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{33,erlydtl_parser,
+                           ["syntax error before: ",[]]}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:21:01.329 [notice] <0.349.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:21:01.331 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:21:01.337 [info] <0.349.0> Route: "/"Url
+[]
+2016-05-09 13:21:01.337 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:21:01.349 [notice] <0.349.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:21:01.455 [info] <0.349.0> GET / [crud] 200 111ms
+2016-05-09 13:21:18.313 [notice] <0.355.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:21:18.315 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:21:18.317 [info] <0.355.0> Route: "/car/create"Url
+[]
+2016-05-09 13:21:18.331 [notice] <0.355.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:21:18.331 [notice] <0.355.0>@boss_controller_adapter_pmod:action:99 [ChicagoBoss] The function crud_car_controller:create/2 is not exported, if in doubt add -export([create/2])) to the module
+2016-05-09 13:21:18.338 [error] <0.355.0> GET /car/create [crud] 404 23ms
+2016-05-09 13:22:22.788 [notice] <0.358.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:22:22.803 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:22:22.809 [info] <0.358.0> Route: "/"Url
+[]
+2016-05-09 13:22:22.809 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:22:22.827 [notice] <0.358.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:22:22.849 [error] <0.358.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{34,erlydtl_parser,
+                           ["syntax error before: ",[]]}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:22:25.171 [notice] <0.359.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:22:25.197 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:22:25.198 [info] <0.359.0> Route: "/"Url
+[]
+2016-05-09 13:22:25.198 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:22:25.214 [notice] <0.359.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:22:25.227 [error] <0.359.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{34,erlydtl_parser,
+                           ["syntax error before: ",[]]}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:22:31.759 [notice] <0.366.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:22:31.760 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:22:31.763 [info] <0.366.0> Route: "/"Url
+[]
+2016-05-09 13:22:31.763 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:22:31.768 [notice] <0.366.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:22:31.838 [info] <0.366.0> GET / [crud] 200 60ms
+2016-05-09 13:26:55.889 [notice] <0.372.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:26:55.892 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:26:55.893 [info] <0.372.0> Route: "/"Url
+[]
+2016-05-09 13:26:55.893 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:26:55.906 [notice] <0.372.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:26:55.956 [info] <0.372.0> GET / [crud] 200 62ms
+2016-05-09 13:26:59.000 [notice] <0.375.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:26:59.013 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:26:59.021 [info] <0.375.0> Route: "/"Url
+[]
+2016-05-09 13:26:59.021 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:26:59.042 [notice] <0.375.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:26:59.056 [info] <0.375.0> GET / [crud] 200 42ms
+2016-05-09 13:27:06.521 [notice] <0.381.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:27:06.523 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:27:06.524 [info] <0.381.0> Route: "/"Url
+[]
+2016-05-09 13:27:06.524 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:27:06.533 [notice] <0.381.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:27:06.648 [info] <0.381.0> GET / [crud] 200 56ms
+2016-05-09 13:27:17.971 [notice] <0.387.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:27:17.974 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:27:17.975 [info] <0.387.0> Route: "/"Url
+[]
+2016-05-09 13:27:17.975 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:27:17.984 [notice] <0.387.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:27:18.128 [info] <0.387.0> GET / [crud] 200 65ms
+2016-05-09 13:27:20.338 [notice] <0.390.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:27:20.353 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:27:20.354 [info] <0.390.0> Route: "/"Url
+[]
+2016-05-09 13:27:20.354 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:27:20.370 [notice] <0.390.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:27:20.384 [info] <0.390.0> GET / [crud] 200 30ms
+2016-05-09 13:27:51.971 [notice] <0.395.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:27:51.974 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:27:51.975 [info] <0.395.0> Route: "/"Url
+[]
+2016-05-09 13:27:51.975 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:27:51.985 [notice] <0.395.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:27:51.991 [error] <0.395.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:{case_clause,{ok,[{"c:/erlang/crud/src/view/car/list.html",
+                         [{{21,14},erlydtl_scanner,{illegal_char,43}}]}]}} Stacktrace: [{boss_web_controller_render,render_view,5,[{file,"src/boss/boss_web_controller_render.erl"},{line,217}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,290}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]},{boss_web_controller_handle_request,handle_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]
+2016-05-09 13:28:01.053 [notice] <0.398.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:28:01.056 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:28:01.058 [info] <0.398.0> Route: "/"Url
+[]
+2016-05-09 13:28:01.058 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:28:01.068 [notice] <0.398.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:28:01.082 [info] <0.398.0> GET / [crud] 200 23ms
+2016-05-09 13:28:12.705 [notice] <0.401.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:28:12.712 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:28:12.724 [info] <0.401.0> Route: "/"Url
+[]
+2016-05-09 13:28:12.725 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:28:12.741 [notice] <0.401.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:28:12.895 [info] <0.401.0> GET / [crud] 200 102ms
+2016-05-09 13:28:57.882 [notice] <0.407.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:28:57.884 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:28:57.886 [info] <0.407.0> Route: "/"Url
+[]
+2016-05-09 13:28:57.886 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:28:57.892 [info] <0.407.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 13:28:57.892 [notice] <0.407.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 13:28:57.908 [notice] <0.407.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:28:57.917 [info] <0.407.0> GET / [crud] 200 30ms
+2016-05-09 13:29:09.549 [notice] <0.413.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:29:09.552 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:29:09.554 [info] <0.413.0> Route: "/"Url
+[]
+2016-05-09 13:29:09.554 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:29:09.562 [notice] <0.413.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:29:09.696 [info] <0.413.0> GET / [crud] 200 58ms
+2016-05-09 13:30:59.007 [notice] <0.419.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:30:59.009 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:30:59.011 [info] <0.419.0> Route: "/"Url
+[]
+2016-05-09 13:30:59.011 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:30:59.019 [notice] <0.419.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:30:59.032 [info] <0.419.0> GET / [crud] 200 20ms
+2016-05-09 13:31:01.316 [notice] <0.421.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:31:01.372 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:31:01.379 [info] <0.421.0> Route: "/"Url
+[]
+2016-05-09 13:31:01.379 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:31:01.403 [notice] <0.421.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:31:01.422 [info] <0.421.0> GET / [crud] 200 46ms
+2016-05-09 13:34:47.820 [notice] <0.426.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:34:47.823 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:34:47.825 [info] <0.426.0> Route: "/"Url
+[]
+2016-05-09 13:34:47.825 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:34:47.835 [notice] <0.426.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:34:47.882 [info] <0.426.0> GET / [crud] 200 60ms
+2016-05-09 13:36:20.135 [notice] <0.430.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:36:20.137 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:36:20.139 [info] <0.430.0> Route: "/"Url
+[]
+2016-05-09 13:36:20.139 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:36:20.147 [notice] <0.430.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:36:20.205 [info] <0.430.0> GET / [crud] 200 54ms
+2016-05-09 13:59:44.686 [notice] <0.434.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:59:44.688 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:59:44.691 [info] <0.434.0> Route: "/"Url
+[]
+2016-05-09 13:59:44.691 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:59:44.702 [notice] <0.434.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:59:44.765 [info] <0.434.0> GET / [crud] 200 19ms
+2016-05-09 13:59:46.751 [notice] <0.435.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:59:46.773 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:59:46.779 [info] <0.435.0> Route: "/"Url
+[]
+2016-05-09 13:59:46.779 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:59:46.790 [notice] <0.435.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:59:46.800 [info] <0.435.0> GET / [crud] 200 24ms
+2016-05-09 13:59:48.142 [notice] <0.436.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:59:48.159 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:59:48.167 [info] <0.436.0> Route: "/"Url
+[]
+2016-05-09 13:59:48.167 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:59:48.180 [notice] <0.436.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:59:48.192 [info] <0.436.0> GET / [crud] 200 32ms
+2016-05-09 13:59:49.470 [notice] <0.437.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 13:59:49.479 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 13:59:49.495 [info] <0.437.0> Route: "/"Url
+[]
+2016-05-09 13:59:49.495 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 13:59:49.502 [notice] <0.437.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 13:59:49.510 [info] <0.437.0> GET / [crud] 200 30ms
+2016-05-09 14:00:18.594 [notice] <0.445.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:00:18.598 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:00:18.599 [info] <0.445.0> Route: "/car/create"Url
+[]
+2016-05-09 14:00:18.603 [info] <0.445.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:00:18.603 [notice] <0.445.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:00:18.625 [notice] <0.445.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:00:18.634 [error] <0.445.0> GET /car/create [crud] 404 36ms
+2016-05-09 14:00:40.926 [notice] <0.449.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:00:40.927 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:00:40.928 [info] <0.449.0> Route: "/car/create"Url
+[]
+2016-05-09 14:00:40.935 [notice] <0.449.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:00:40.965 [info] <0.449.0> GET /car/create [crud] 200 39ms
+2016-05-09 14:01:45.099 [notice] <0.453.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:01:45.101 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:01:45.105 [info] <0.453.0> Route: "/car/create"Url
+[]
+2016-05-09 14:01:45.114 [notice] <0.453.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:01:45.135 [info] <0.453.0> GET /car/create [crud] 200 33ms
+2016-05-09 14:01:53.257 [notice] <0.459.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:01:53.260 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:01:53.263 [info] <0.459.0> Route: "/car/create"Url
+[]
+2016-05-09 14:01:53.268 [notice] <0.459.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:01:53.304 [info] <0.459.0> GET /car/create [crud] 200 44ms
+2016-05-09 14:01:55.360 [notice] <0.462.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:01:55.405 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:01:55.405 [info] <0.462.0> Route: "/car/create"Url
+[]
+2016-05-09 14:01:55.408 [notice] <0.462.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:01:55.471 [info] <0.462.0> GET /car/create [crud] 200 45ms
+2016-05-09 14:01:56.843 [notice] <0.463.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:01:56.850 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:01:56.864 [info] <0.463.0> Route: "/"Url
+[]
+2016-05-09 14:01:56.864 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:01:56.879 [notice] <0.463.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:01:56.893 [info] <0.463.0> GET / [crud] 200 39ms
+2016-05-09 14:01:58.171 [notice] <0.464.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:01:58.179 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:01:58.197 [info] <0.464.0> Route: "/car/create"Url
+[]
+2016-05-09 14:01:58.210 [notice] <0.464.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:01:58.221 [info] <0.464.0> GET /car/create [crud] 200 41ms
+2016-05-09 14:01:59.941 [notice] <0.468.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:01:59.945 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:01:59.948 [info] <0.468.0> Route: "/"Url
+[]
+2016-05-09 14:01:59.948 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:01:59.956 [notice] <0.468.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:01:59.964 [info] <0.468.0> GET / [crud] 200 18ms
+2016-05-09 14:02:01.141 [notice] <0.470.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:02:01.150 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:02:01.163 [info] <0.470.0> Route: "/car/create"Url
+[]
+2016-05-09 14:02:01.180 [notice] <0.470.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:02:01.272 [info] <0.470.0> GET /car/create [crud] 200 106ms
+2016-05-09 14:02:03.225 [notice] <0.472.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:02:03.227 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:02:03.228 [info] <0.472.0> Route: "/"Url
+[]
+2016-05-09 14:02:03.228 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:02:03.235 [notice] <0.472.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:02:03.304 [info] <0.472.0> GET / [crud] 200 15ms
+2016-05-09 14:02:04.434 [notice] <0.474.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:02:04.461 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:02:04.475 [notice] <0.474.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:02:04.482 [info] <0.474.0> Route: "/car/create"Url
+[]
+2016-05-09 14:02:04.485 [info] <0.474.0> GET /car/create [crud] 200 24ms
+2016-05-09 14:02:06.539 [notice] <0.476.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:02:06.540 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:02:06.541 [info] <0.476.0> Route: "/"Url
+[]
+2016-05-09 14:02:06.541 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:02:06.548 [notice] <0.476.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:02:06.556 [info] <0.476.0> GET / [crud] 200 15ms
+2016-05-09 14:02:07.520 [notice] <0.478.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:02:07.544 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:02:07.544 [info] <0.478.0> Route: "/car/create"Url
+[]
+2016-05-09 14:02:07.551 [notice] <0.478.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:02:07.621 [info] <0.478.0> GET /car/create [crud] 200 29ms
+2016-05-09 14:02:27.614 [notice] <0.480.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:02:27.616 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:02:27.617 [info] <0.480.0> Route: "/car/create"Url
+[]
+2016-05-09 14:02:27.624 [notice] <0.480.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:02:27.683 [info] <0.480.0> GET /car/create [crud] 200 67ms
+2016-05-09 14:03:10.244 [notice] <0.486.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:03:10.246 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:03:10.249 [info] <0.486.0> Route: "/car/create"Url
+[]
+2016-05-09 14:03:10.256 [notice] <0.486.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:03:10.302 [info] <0.486.0> GET /car/create [crud] 200 55ms
+2016-05-09 14:03:24.170 [notice] <0.492.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:03:24.173 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:03:24.175 [info] <0.492.0> Route: "/car/create"Url
+[]
+2016-05-09 14:03:24.181 [notice] <0.492.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:03:24.221 [info] <0.492.0> GET /car/create [crud] 200 48ms
+2016-05-09 14:03:32.218 [notice] <0.498.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:03:32.220 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:03:32.223 [info] <0.498.0> Route: "/car/create"Url
+[]
+2016-05-09 14:03:32.229 [notice] <0.498.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:03:32.301 [info] <0.498.0> GET /car/create [crud] 200 44ms
+2016-05-09 14:04:13.433 [notice] <0.504.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:04:13.440 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:04:13.443 [info] <0.504.0> Route: "/car/create"Url
+[]
+2016-05-09 14:04:13.452 [notice] <0.504.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:04:13.539 [info] <0.504.0> GET /car/create [crud] 200 56ms
+2016-05-09 14:04:22.873 [notice] <0.510.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:04:22.875 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:04:22.878 [info] <0.510.0> Route: "/car/create"Url
+[]
+2016-05-09 14:04:22.883 [notice] <0.510.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:04:23.014 [info] <0.510.0> GET /car/create [crud] 200 44ms
+2016-05-09 14:05:07.533 [notice] <0.516.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:05:07.535 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:05:07.538 [info] <0.516.0> Route: "/"Url
+[]
+2016-05-09 14:05:07.538 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:05:07.547 [notice] <0.516.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:05:07.556 [info] <0.516.0> GET / [crud] 200 20ms
+2016-05-09 14:05:09.353 [notice] <0.518.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:05:09.365 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:05:09.372 [info] <0.518.0> Route: "/car/create"Url
+[]
+2016-05-09 14:05:09.382 [notice] <0.518.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:05:09.390 [info] <0.518.0> GET /car/create [crud] 200 25ms
+2016-05-09 14:05:10.793 [notice] <0.520.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:05:10.795 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:05:10.797 [info] <0.520.0> Route: "/"Url
+[]
+2016-05-09 14:05:10.797 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:05:10.805 [notice] <0.520.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:05:10.815 [info] <0.520.0> GET / [crud] 200 19ms
+2016-05-09 14:05:11.640 [notice] <0.522.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:05:11.644 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:05:11.647 [info] <0.522.0> Route: "/car/create"Url
+[]
+2016-05-09 14:05:11.655 [notice] <0.522.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:05:11.664 [info] <0.522.0> GET /car/create [crud] 200 19ms
+2016-05-09 14:06:06.248 [notice] <0.524.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:06.253 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:06:06.254 [info] <0.524.0> Route: "/car/create"Url
+[]
+2016-05-09 14:06:06.258 [info] <0.524.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:06:06.258 [notice] <0.524.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:06:06.275 [notice] <0.524.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:06:06.314 [info] <0.524.0> GET /car/create [crud] 200 61ms
+2016-05-09 14:06:06.740 [notice] <0.527.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:07.725 [notice] <0.526.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:07.733 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:06:07.736 [info] <0.526.0> Route: "/car/save"Url
+[]
+2016-05-09 14:06:07.744 [notice] <0.526.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:06:07.749 [error] <0.526.0>@boss_web_controller:call_controller_action:319 Error in controller error:function_clause Stacktrace: [{crud_car_controller,save,['GET',[],
+                          {crud_car_controller,
+                              {simple_bridge_request_wrapper,
+                                  mochiweb_request_bridge,
+                                  {mochicow_request,#Port<0.30702>,'GET',
+                                      "/car/save?type=&color=",'HTTP/1.1',
+                                      {9,
+                                       {"host",
+                                        {"host","localhost:8001"},
+                                        {"connection",
+                                         {"connection","keep-alive"},
+                                         {"accept",
+                                          {"accept",
+                                           "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},
+                                          nil,
+                                          {"accept-encoding",
+                                           {"accept-encoding",
+                                            "gzip, deflate, sdch"},
+                                           nil,
+                                           {"accept-language",
+                                            {"accept-language",
+                                             "en-US,en;q=0.8"},
+                                            nil,nil}}},
+                                         {"cookie",
+                                          {"cookie",
+                                           "Profiler=open; connect.sid=s%3A80Gzun2u_-1lmrIN5vt3namVI9MJUQV0.TtpS3eplLHT8A4XpKF8YedxJYPTQYWkmPWKzg3HMAqM; PHPSESSID=8mf8ppovsi59ulpvdtugc64di3; __atuvc=3%7C16; language=en; currency=USD; SID=nonode@nohost-259646713185873810545128483453369133934; _ga=GA1.1.1215438066.1457924905; __utma=111872281.1215438066.1457924905.1462414769.1462524836.14; __utmc=111872281; __utmz=111872281.1460340314.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ci_session=e69da837dab54690e4183b6f552fba8b90e1f2ba"},
+                                          nil,nil}},
+                                        {"upgrade-insecure-requests",
+                                         {"upgrade-insecure-requests","1"},
+                                         {"referer",
+                                          {"referer",
+                                           "http://localhost:8001/car/create"},
+                                          nil,nil},
+                                         {"user-agent",
+                                          {"user-agent",
+                                           "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36"},
+                                          nil,nil}}}},
+                                      <<>>},
+                                  false,[],[],none}}],[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,11}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]}]
+2016-05-09 14:06:07.752 [error] <0.526.0> Error in controller, see console.log for details
+
+2016-05-09 14:06:07.926 [error] <0.526.0> GET /car/save [crud] 500 193ms
+2016-05-09 14:06:22.829 [notice] <0.536.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:22.831 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:06:22.836 [info] <0.536.0> Route: "/car/create"Url
+[]
+2016-05-09 14:06:22.844 [notice] <0.536.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:06:22.879 [info] <0.536.0> GET /car/create [crud] 200 48ms
+2016-05-09 14:06:23.314 [notice] <0.537.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:24.468 [notice] <0.540.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:24.470 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:06:24.473 [info] <0.540.0> Route: "/car/save"Url
+[]
+2016-05-09 14:06:24.479 [notice] <0.540.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:06:24.487 [error] <0.540.0> POST /car/save [crud] 404 17ms
+2016-05-09 14:06:45.761 [notice] <0.545.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:45.762 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:06:45.763 [info] <0.545.0> Route: "/car/create"Url
+[]
+2016-05-09 14:06:45.769 [info] <0.545.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:06:45.769 [notice] <0.545.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:06:45.811 [notice] <0.545.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:06:45.819 [info] <0.545.0> GET /car/create [crud] 200 55ms
+2016-05-09 14:06:46.341 [notice] <0.546.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:52.842 [notice] <0.551.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:52.844 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:06:52.847 [info] <0.551.0> Route: "/car/save"Url
+[]
+2016-05-09 14:06:52.856 [notice] <0.551.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:06:52.864 [error] <0.551.0> POST /car/save [crud] 404 19ms
+2016-05-09 14:06:58.886 [notice] <0.554.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:06:58.887 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:06:58.890 [info] <0.554.0> Route: "/car/save"Url
+[]
+2016-05-09 14:06:58.899 [notice] <0.554.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:06:58.907 [error] <0.554.0> POST /car/save [crud] 404 17ms
+2016-05-09 14:09:30.938 [notice] <0.557.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:09:30.944 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:09:30.947 [info] <0.557.0> Route: "/car/save"Url
+[]
+2016-05-09 14:09:30.952 [info] <0.557.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:09:30.953 [notice] <0.557.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:09:30.956 [error] <0.557.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/crud_car_controller.erl" -> [{"c:/erlang/crud/src/controller/crud_car_controller.erl",[{12,erl_lint,{undefined_function,{post_param,1}}}]}]
+2016-05-09 14:09:31.058 [info] <0.557.0> POST /car/save [crud] 200 119ms
+2016-05-09 14:09:31.437 [notice] <0.560.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:09:35.063 [notice] <0.561.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:09:35.077 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:09:35.079 [info] <0.561.0> Route: "/car/save"Url
+[]
+2016-05-09 14:09:35.089 [info] <0.561.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:09:35.089 [notice] <0.561.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:09:35.101 [error] <0.561.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/crud_car_controller.erl" -> [{"c:/erlang/crud/src/controller/crud_car_controller.erl",[{12,erl_lint,{undefined_function,{post_param,1}}}]}]
+2016-05-09 14:09:35.103 [info] <0.561.0> POST /car/save [crud] 200 25ms
+2016-05-09 14:11:58.721 [notice] <0.566.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:11:58.732 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:11:58.734 [info] <0.566.0> Route: "/car/create"Url
+[]
+2016-05-09 14:11:58.740 [info] <0.566.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:11:58.740 [notice] <0.566.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:11:58.763 [notice] <0.566.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:11:58.776 [info] <0.566.0> GET /car/create [crud] 200 39ms
+2016-05-09 14:12:03.010 [notice] <0.569.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:12:03.014 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:12:03.016 [info] <0.569.0> Route: "/car/save"Url
+[]
+2016-05-09 14:12:03.024 [notice] <0.569.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:12:03.036 [error] <0.569.0> POST /car/save [crud] 404 22ms
+2016-05-09 14:12:14.476 [notice] <0.572.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:12:14.478 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:12:14.480 [info] <0.572.0> Route: "/car/save"Url
+[]
+2016-05-09 14:12:14.491 [notice] <0.572.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:12:14.502 [error] <0.572.0> POST /car/save [crud] 404 24ms
+2016-05-09 14:12:54.251 [notice] <0.575.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:12:54.252 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:12:54.255 [info] <0.575.0> Route: "/car/create"Url
+[]
+2016-05-09 14:12:54.259 [info] <0.575.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:12:54.260 [notice] <0.575.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:12:54.281 [notice] <0.575.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:12:54.289 [info] <0.575.0> GET /car/create [crud] 200 37ms
+2016-05-09 14:12:58.694 [notice] <0.578.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:12:58.697 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:12:58.698 [info] <0.578.0> Route: "/car/save"Url
+[]
+2016-05-09 14:12:58.708 [notice] <0.578.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:12:58.713 [error] <0.578.0> POST /car/save [crud] 404 17ms
+2016-05-09 14:14:09.009 [notice] <0.581.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:14:09.012 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:14:09.014 [info] <0.581.0> Route: "/car/create"Url
+[]
+2016-05-09 14:14:09.017 [info] <0.581.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:14:09.017 [notice] <0.581.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:14:09.054 [notice] <0.581.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:14:09.064 [info] <0.581.0> GET /car/create [crud] 200 51ms
+2016-05-09 14:14:10.911 [notice] <0.584.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:14:10.915 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:14:10.915 [info] <0.584.0> Route: "/car/create"Url
+[]
+2016-05-09 14:14:10.923 [notice] <0.584.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:14:10.930 [info] <0.584.0> GET /car/create [crud] 200 18ms
+2016-05-09 14:14:33.534 [notice] <0.587.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:14:33.538 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:14:33.539 [info] <0.587.0> Route: "/car/save"Url
+[]
+2016-05-09 14:14:33.547 [notice] <0.587.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:14:33.547 [notice] <0.587.0>@boss_controller_adapter_pmod:action:99 [ChicagoBoss] The function crud_car_controller:save/2 is not exported, if in doubt add -export([save/2])) to the module
+2016-05-09 14:14:33.560 [error] <0.587.0> POST /car/save [crud] 404 21ms
+2016-05-09 14:15:00.793 [notice] <0.590.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:15:00.795 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:15:00.797 [info] <0.590.0> Route: "/car/create"Url
+[]
+2016-05-09 14:15:00.807 [notice] <0.590.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:15:00.856 [info] <0.590.0> GET /car/create [crud] 200 52ms
+2016-05-09 14:15:05.912 [notice] <0.593.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:15:05.928 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:15:05.930 [info] <0.593.0> Route: "/car/create"Url
+[]
+2016-05-09 14:15:05.952 [notice] <0.593.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:15:05.965 [info] <0.593.0> POST /car/create [crud] 200 36ms
+2016-05-09 14:16:49.872 [notice] <0.596.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:16:49.876 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:16:49.878 [info] <0.596.0> Route: "/car/create"Url
+[]
+2016-05-09 14:16:49.884 [info] <0.596.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:16:49.885 [notice] <0.596.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:16:49.899 [notice] <0.596.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:16:49.919 [info] <0.596.0> GET /car/create [crud] 200 32ms
+2016-05-09 14:16:54.534 [notice] <0.599.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:16:54.577 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:16:54.586 [info] <0.599.0> Route: "/car/create"Url
+[]
+2016-05-09 14:16:54.593 [notice] <0.599.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:16:54.594 [error] <0.599.0>@boss_web_controller:call_controller_action:319 Error in controller error:{badmatch,{ok,{car,"car-3",undefined,undefined}}} Stacktrace: [{crud_car_controller,create,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,14}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]}]
+2016-05-09 14:16:54.598 [error] <0.599.0> Error in controller, see console.log for details
+
+2016-05-09 14:16:54.602 [error] <0.599.0> POST /car/create [crud] 500 25ms
+2016-05-09 14:17:44.299 [notice] <0.603.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:17:44.304 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:17:44.305 [info] <0.603.0> Route: "/car/create"Url
+[]
+2016-05-09 14:17:44.315 [info] <0.603.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:17:44.315 [notice] <0.603.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:17:44.339 [notice] <0.603.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:17:44.350 [info] <0.603.0> GET /car/create [crud] 200 46ms
+2016-05-09 14:17:48.702 [notice] <0.606.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:17:48.705 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:17:48.705 [info] <0.606.0> Route: "/car/create"Url
+[]
+2016-05-09 14:17:48.712 [notice] <0.606.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:17:48.716 [info] <0.606.0> POST /car/create [crud] 302 12ms
+2016-05-09 14:17:48.952 [notice] <0.608.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:17:48.953 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:17:48.955 [info] <0.608.0> Route: "/"Url
+[]
+2016-05-09 14:17:48.955 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:17:48.964 [notice] <0.608.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:17:48.996 [info] <0.608.0> GET / [crud] 200 40ms
+2016-05-09 14:17:52.732 [notice] <0.610.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:17:52.735 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:17:52.735 [info] <0.610.0> Route: "/"Url
+[]
+2016-05-09 14:17:52.735 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:17:52.748 [notice] <0.610.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:17:52.767 [info] <0.610.0> GET / [crud] 200 23ms
+2016-05-09 14:17:55.330 [notice] <0.612.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:17:55.332 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:17:55.333 [info] <0.612.0> Route: "/"Url
+[]
+2016-05-09 14:17:55.333 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:17:55.343 [notice] <0.612.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:17:55.355 [info] <0.612.0> GET / [crud] 200 20ms
+2016-05-09 14:17:56.884 [notice] <0.614.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:17:56.888 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:17:56.890 [info] <0.614.0> Route: "/car/create"Url
+[]
+2016-05-09 14:17:56.898 [notice] <0.614.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:17:56.911 [info] <0.614.0> GET /car/create [crud] 200 22ms
+2016-05-09 14:18:01.335 [notice] <0.616.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:18:01.337 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:18:01.340 [info] <0.616.0> Route: "/car/create"Url
+[]
+2016-05-09 14:18:01.347 [notice] <0.616.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:18:01.357 [info] <0.616.0> POST /car/create [crud] 302 18ms
+2016-05-09 14:18:01.586 [notice] <0.618.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:18:01.588 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:18:01.589 [info] <0.618.0> Route: "/"Url
+[]
+2016-05-09 14:18:01.590 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:18:01.601 [notice] <0.618.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:18:01.613 [info] <0.618.0> GET / [crud] 200 24ms
+2016-05-09 14:18:05.278 [notice] <0.620.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:18:05.286 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:18:05.287 [info] <0.620.0> Route: "/"Url
+[]
+2016-05-09 14:18:05.287 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:18:05.302 [notice] <0.620.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:18:05.320 [info] <0.620.0> GET / [crud] 200 28ms
+2016-05-09 14:18:07.610 [notice] <0.622.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:18:07.614 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:18:07.616 [info] <0.622.0> Route: "/"Url
+[]
+2016-05-09 14:18:07.616 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:18:07.626 [notice] <0.622.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:18:07.634 [info] <0.622.0> GET / [crud] 200 19ms
+2016-05-09 14:18:09.345 [notice] <0.624.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:18:09.351 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:18:09.355 [info] <0.624.0> Route: "/car/create"Url
+[]
+2016-05-09 14:18:09.371 [notice] <0.624.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:18:09.382 [info] <0.624.0> GET /car/create [crud] 200 30ms
+2016-05-09 14:20:11.103 [notice] <0.626.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:20:11.106 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:20:11.109 [info] <0.626.0> Route: "/"Url
+[]
+2016-05-09 14:20:11.109 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:20:11.115 [info] <0.626.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:20:11.115 [notice] <0.626.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:20:11.135 [notice] <0.626.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:20:11.143 [info] <0.626.0> GET / [crud] 200 36ms
+2016-05-09 14:20:13.455 [notice] <0.629.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:20:13.459 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:20:13.461 [info] <0.629.0> Route: "/"Url
+[]
+2016-05-09 14:20:13.461 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:20:13.472 [notice] <0.629.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:20:13.481 [info] <0.629.0> GET / [crud] 200 22ms
+2016-05-09 14:20:14.648 [notice] <0.631.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:20:14.652 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:20:14.656 [info] <0.631.0> Route: "/"Url
+[]
+2016-05-09 14:20:14.656 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:20:14.667 [notice] <0.631.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:20:14.677 [info] <0.631.0> GET / [crud] 200 23ms
+2016-05-09 14:20:15.301 [notice] <0.633.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:20:15.303 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:20:15.305 [info] <0.633.0> Route: "/"Url
+[]
+2016-05-09 14:20:15.306 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:20:15.318 [notice] <0.633.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:20:15.330 [info] <0.633.0> GET / [crud] 200 27ms
+2016-05-09 14:29:28.371 [notice] <0.635.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:29:28.374 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:29:28.376 [info] <0.635.0> Route: "/car/create"Url
+[]
+2016-05-09 14:29:28.386 [info] <0.635.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:29:28.386 [notice] <0.635.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:29:28.417 [notice] <0.635.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:29:28.425 [info] <0.635.0> GET /car/create [crud] 200 50ms
+2016-05-09 14:29:34.087 [notice] <0.639.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:29:34.090 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:29:34.092 [info] <0.639.0> Route: "/car/create"Url
+[]
+2016-05-09 14:29:34.099 [notice] <0.639.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:29:34.103 [info] <0.639.0> POST /car/create [crud] 302 14ms
+2016-05-09 14:29:34.339 [notice] <0.641.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:29:34.340 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:29:34.342 [info] <0.641.0> Route: "/"Url
+[]
+2016-05-09 14:29:34.342 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:29:34.349 [notice] <0.641.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:29:34.360 [info] <0.641.0> GET / [crud] 200 17ms
+2016-05-09 14:30:02.827 [notice] <0.644.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:30:02.829 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:30:02.830 [info] <0.644.0> Route: "/car/create"Url
+[]
+2016-05-09 14:30:02.834 [info] <0.644.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:30:02.834 [notice] <0.644.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:30:02.857 [notice] <0.644.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:30:02.875 [info] <0.644.0> GET /car/create [crud] 200 35ms
+2016-05-09 14:30:07.334 [notice] <0.647.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:30:07.338 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:30:07.340 [info] <0.647.0> Route: "/car/create"Url
+[]
+2016-05-09 14:30:07.350 [notice] <0.647.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:30:07.356 [info] <0.647.0> POST /car/create [crud] 302 18ms
+2016-05-09 14:30:07.665 [notice] <0.649.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:30:07.665 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:30:07.666 [info] <0.649.0> Route: "/"Url
+[]
+2016-05-09 14:30:07.666 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:30:07.673 [notice] <0.649.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:30:07.737 [info] <0.649.0> GET / [crud] 200 16ms
+2016-05-09 14:32:41.637 [notice] <0.652.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:32:41.640 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:32:41.643 [info] <0.652.0> Route: "/"Url
+[]
+2016-05-09 14:32:41.643 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:32:41.651 [notice] <0.652.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:32:41.713 [info] <0.652.0> GET / [crud] 200 67ms
+2016-05-09 14:33:11.639 [notice] <0.656.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:33:11.641 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:33:11.647 [info] <0.656.0> Route: "/"Url
+[]
+2016-05-09 14:33:11.647 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:33:11.657 [notice] <0.656.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:33:11.719 [info] <0.656.0> GET / [crud] 200 77ms
+2016-05-09 14:33:12.146 [notice] <0.659.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:33:21.577 [notice] <0.662.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:33:21.579 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:33:21.582 [info] <0.662.0> Route: "/"Url
+[]
+2016-05-09 14:33:21.582 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:33:21.590 [notice] <0.662.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:33:21.663 [info] <0.662.0> GET / [crud] 200 82ms
+2016-05-09 14:33:22.095 [notice] <0.665.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:33:28.588 [notice] <0.668.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:33:28.591 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:33:28.593 [info] <0.668.0> Route: "/"Url
+[]
+2016-05-09 14:33:28.593 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:33:28.602 [notice] <0.668.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:33:28.659 [info] <0.668.0> GET / [crud] 200 66ms
+2016-05-09 14:33:29.119 [notice] <0.671.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:34:41.611 [notice] <0.674.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:34:41.614 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:34:41.622 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:34:41.622 [info] <0.674.0> Route: "/"Url
+[]
+2016-05-09 14:34:41.624 [info] <0.674.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:34:41.624 [notice] <0.674.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:34:41.651 [notice] <0.674.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:34:41.675 [info] <0.674.0> GET / [crud] 200 62ms
+2016-05-09 14:34:43.645 [notice] <0.677.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:34:43.648 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:34:43.651 [info] <0.677.0> Route: "/car/delete/car-6"Url
+[]
+2016-05-09 14:34:43.657 [notice] <0.677.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-6"]
+2016-05-09 14:34:43.660 [error] <0.677.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,delete,["car-6"],[]},{crud_car_controller,delete,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,18}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 14:34:43.663 [error] <0.677.0> Error in controller, see console.log for details
+
+2016-05-09 14:34:43.665 [error] <0.677.0> GET /car/delete/car-6 [crud] 500 17ms
+2016-05-09 14:35:48.047 [notice] <0.681.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:48.048 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:48.049 [info] <0.681.0> Route: "/car/delete/car-6"Url
+[]
+2016-05-09 14:35:48.052 [info] <0.681.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 14:35:48.052 [notice] <0.681.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 14:35:48.074 [notice] <0.681.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-6"]
+2016-05-09 14:35:48.079 [info] <0.681.0> GET /car/delete/car-6 [crud] 302 30ms
+2016-05-09 14:35:48.386 [notice] <0.684.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:48.387 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:48.388 [info] <0.684.0> Route: "/"Url
+[]
+2016-05-09 14:35:48.388 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:35:48.397 [notice] <0.684.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:35:48.411 [info] <0.684.0> GET / [crud] 200 24ms
+2016-05-09 14:35:50.369 [notice] <0.686.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:50.375 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:50.376 [info] <0.686.0> Route: "/car/delete/car-5"Url
+[]
+2016-05-09 14:35:50.381 [notice] <0.686.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-5"]
+2016-05-09 14:35:50.390 [info] <0.686.0> GET /car/delete/car-5 [crud] 302 15ms
+2016-05-09 14:35:50.697 [notice] <0.688.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:50.699 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:50.703 [info] <0.688.0> Route: "/"Url
+[]
+2016-05-09 14:35:50.703 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:35:50.748 [notice] <0.688.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:35:50.766 [info] <0.688.0> GET / [crud] 200 67ms
+2016-05-09 14:35:52.461 [notice] <0.690.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:52.508 [notice] <0.690.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-4"]
+2016-05-09 14:35:52.509 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:52.509 [info] <0.690.0> Route: "/car/delete/car-4"Url
+[]
+2016-05-09 14:35:52.513 [info] <0.690.0> GET /car/delete/car-4 [crud] 302 10ms
+2016-05-09 14:35:52.819 [notice] <0.692.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:52.820 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:52.821 [info] <0.692.0> Route: "/"Url
+[]
+2016-05-09 14:35:52.821 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:35:52.828 [notice] <0.692.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:35:52.886 [info] <0.692.0> GET / [crud] 200 21ms
+2016-05-09 14:35:54.243 [notice] <0.694.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:54.259 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:54.271 [notice] <0.694.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-3"]
+2016-05-09 14:35:54.272 [info] <0.694.0> Route: "/car/delete/car-3"Url
+[]
+2016-05-09 14:35:54.283 [info] <0.694.0> GET /car/delete/car-3 [crud] 302 17ms
+2016-05-09 14:35:54.584 [notice] <0.696.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:54.585 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:54.586 [info] <0.696.0> Route: "/"Url
+[]
+2016-05-09 14:35:54.586 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:35:54.592 [notice] <0.696.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:35:54.620 [info] <0.696.0> GET / [crud] 200 36ms
+2016-05-09 14:35:56.642 [notice] <0.698.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:56.649 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:56.652 [info] <0.698.0> Route: "/car/delete/car-7"Url
+[]
+2016-05-09 14:35:56.693 [notice] <0.698.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-7"]
+2016-05-09 14:35:56.701 [info] <0.698.0> GET /car/delete/car-7 [crud] 302 52ms
+2016-05-09 14:35:57.006 [notice] <0.700.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:57.007 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:57.008 [info] <0.700.0> Route: "/"Url
+[]
+2016-05-09 14:35:57.008 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:35:57.016 [notice] <0.700.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:35:57.031 [info] <0.700.0> GET / [crud] 200 19ms
+2016-05-09 14:35:58.109 [notice] <0.702.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:35:58.112 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:35:58.113 [info] <0.702.0> Route: "/car/create"Url
+[]
+2016-05-09 14:35:58.119 [notice] <0.702.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:35:58.132 [info] <0.702.0> GET /car/create [crud] 200 20ms
+2016-05-09 14:36:05.627 [notice] <0.704.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:36:05.629 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:36:05.630 [info] <0.704.0> Route: "/car/create"Url
+[]
+2016-05-09 14:36:05.636 [notice] <0.704.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 14:36:05.640 [info] <0.704.0> POST /car/create [crud] 302 11ms
+2016-05-09 14:36:05.877 [notice] <0.706.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:36:05.878 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:36:05.879 [info] <0.706.0> Route: "/"Url
+[]
+2016-05-09 14:36:05.879 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:36:05.886 [notice] <0.706.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:36:05.898 [info] <0.706.0> GET / [crud] 200 17ms
+2016-05-09 14:37:04.883 [notice] <0.709.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 14:37:04.888 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 14:37:04.892 [info] <0.709.0> Route: "/"Url
+[]
+2016-05-09 14:37:04.892 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 14:37:04.908 [notice] <0.709.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 14:37:04.918 [info] <0.709.0> GET / [crud] 200 30ms
+2016-05-09 15:13:34.755 [notice] <0.712.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:13:34.757 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:13:34.762 [info] <0.712.0> Route: "/"Url
+[]
+2016-05-09 15:13:34.762 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:13:34.767 [info] <0.712.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:13:34.768 [notice] <0.712.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:13:34.861 [notice] <0.712.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:13:35.004 [info] <0.712.0> GET / [crud] 200 247ms
+2016-05-09 15:13:35.488 [notice] <0.716.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:13:39.607 [notice] <0.718.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:13:39.620 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:13:39.621 [info] <0.718.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:13:39.627 [notice] <0.718.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:13:39.631 [error] <0.718.0>@boss_web_controller:call_controller_action:319 Error in controller error:function_clause Stacktrace: [{crud_car_controller,update,['GET',
+                            ["car-2"],
+                            {crud_car_controller,
+                             {simple_bridge_request_wrapper,
+                              mochiweb_request_bridge,
+                              {mochicow_request,#Port<0.36325>,'GET',
+                               "/car/update/car-2",'HTTP/1.1',
+                               {9,
+                                {"host",
+                                 {"host","localhost:8001"},
+                                 {"connection",
+                                  {"connection","keep-alive"},
+                                  {"accept",
+                                   {"accept",
+                                    "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},
+                                   nil,
+                                   {"accept-encoding",
+                                    {"accept-encoding","gzip, deflate, sdch"},
+                                    nil,
+                                    {"accept-language",
+                                     {"accept-language","en-US,en;q=0.8"},
+                                     nil,nil}}},
+                                  {"cookie",
+                                   {"cookie",
+                                    "Profiler=open; connect.sid=s%3A80Gzun2u_-1lmrIN5vt3namVI9MJUQV0.TtpS3eplLHT8A4XpKF8YedxJYPTQYWkmPWKzg3HMAqM; PHPSESSID=8mf8ppovsi59ulpvdtugc64di3; __atuvc=3%7C16; language=en; currency=USD; SID=nonode@nohost-259646713185873810545128483453369133934; _ga=GA1.1.1215438066.1457924905; __utma=111872281.1215438066.1457924905.1462414769.1462524836.14; __utmc=111872281; __utmz=111872281.1460340314.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%220c02b3d16ff2bb26b6116bf0018d5a14%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A3%3A%22%3A%3A1%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A108%3A%22Mozilla%2F5.0+%28Windows+NT+6.3%3B+WOW64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F50.0.2661.94+Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1462777281%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Dc06808bf84f375ba07acf714c6e5a17a82a5b07f"},
+                                   nil,nil}},
+                                 {"upgrade-insecure-requests",
+                                  {"upgrade-insecure-requests","1"},
+                                  {"referer",
+                                   {"referer","http://localhost:8001/"},
+                                   nil,nil},
+                                  {"user-agent",
+                                   {"user-agent",
+                                    "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36"},
+                                   nil,nil}}}},
+                               <<>>},
+                              false,[],[],none}}],[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,21}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller_handle_request,build_dynamic_response,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,129}]}]
+2016-05-09 15:13:39.636 [error] <0.718.0> Error in controller, see console.log for details
+
+2016-05-09 15:13:39.640 [error] <0.718.0> GET /car/update/car-2 [crud] 500 19ms
+2016-05-09 15:13:57.654 [notice] <0.720.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:13:57.658 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:13:57.658 [info] <0.720.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:13:57.661 [info] <0.720.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:13:57.662 [notice] <0.720.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:13:57.731 [notice] <0.720.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:13:57.815 [error] <0.720.0> GET /car/update/car-2 [crud] 404 145ms
+2016-05-09 15:13:58.160 [notice] <0.723.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:14:58.056 [notice] <0.724.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:14:58.059 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:14:58.060 [info] <0.724.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:14:58.069 [info] <0.724.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:14:58.069 [notice] <0.724.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:14:58.109 [notice] <0.724.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:14:58.148 [error] <0.724.0> GET /car/update/car-2 [crud] 404 88ms
+2016-05-09 15:14:58.506 [notice] <0.727.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:15:17.206 [notice] <0.728.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:15:17.210 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:15:17.213 [info] <0.728.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:15:17.220 [notice] <0.728.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:15:17.467 [info] <0.728.0> GET /car/update/car-2 [crud] 200 255ms
+2016-05-09 15:15:17.907 [notice] <0.731.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:15:32.519 [notice] <0.734.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:15:32.529 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:15:32.532 [info] <0.734.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:15:32.541 [notice] <0.734.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:15:32.680 [info] <0.734.0> GET /car/update/car-2 [crud] 200 84ms
+2016-05-09 15:15:33.052 [notice] <0.737.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:15:48.177 [notice] <0.740.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:15:48.182 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:15:48.185 [info] <0.740.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:15:48.227 [notice] <0.740.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:15:48.326 [info] <0.740.0> GET /car/update/car-2 [crud] 200 144ms
+2016-05-09 15:15:48.751 [notice] <0.743.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:15:57.627 [notice] <0.746.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:15:57.630 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:15:57.632 [info] <0.746.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:15:57.638 [notice] <0.746.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:15:57.756 [info] <0.746.0> GET /car/update/car-2 [crud] 200 82ms
+2016-05-09 15:15:58.061 [notice] <0.749.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:16:12.166 [notice] <0.753.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:16:12.168 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:16:12.169 [info] <0.753.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:16:12.183 [notice] <0.753.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:16:12.309 [info] <0.753.0> GET /car/update/car-2 [crud] 200 139ms
+2016-05-09 15:16:12.670 [notice] <0.756.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:17:41.227 [notice] <0.759.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:17:41.232 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:17:41.236 [info] <0.759.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:17:41.244 [info] <0.759.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:17:41.245 [notice] <0.759.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:17:41.312 [notice] <0.759.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:17:41.364 [info] <0.759.0> GET /car/update/car-2 [crud] 200 131ms
+2016-05-09 15:17:53.925 [notice] <0.764.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:17:53.928 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:17:53.957 [info] <0.764.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:17:53.961 [info] <0.764.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:17:53.961 [notice] <0.764.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:17:53.979 [notice] <0.764.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:17:53.987 [info] <0.764.0> GET /car/update/car-2 [crud] 200 59ms
+2016-05-09 15:17:57.858 [notice] <0.767.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:17:57.891 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:17:57.943 [info] <0.767.0> Route: "/car/update"Url
+[]
+2016-05-09 15:17:57.955 [notice] <0.767.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:17:57.957 [error] <0.767.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,save_record,[{car,"brown1","saga1","brown1"}],[]},{crud_car_controller,update,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,29}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 15:17:57.962 [error] <0.767.0> Error in controller, see console.log for details
+
+2016-05-09 15:17:58.028 [error] <0.767.0> POST /car/update [crud] 500 138ms
+2016-05-09 15:18:18.203 [notice] <0.774.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:18:18.210 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:18:18.215 [info] <0.774.0> Route: "/car/update"Url
+[]
+2016-05-09 15:18:18.224 [notice] <0.774.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:18:18.226 [error] <0.774.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,save_record,[{car,"brown1","saga1","brown1"}],[]},{crud_car_controller,update,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,29}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 15:18:18.228 [error] <0.774.0> Error in controller, see console.log for details
+
+2016-05-09 15:18:18.231 [error] <0.774.0> POST /car/update [crud] 500 21ms
+2016-05-09 15:24:58.090 [notice] <0.778.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:24:58.092 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:24:58.097 [info] <0.778.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:24:58.101 [info] <0.778.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:24:58.101 [notice] <0.778.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:24:58.136 [notice] <0.778.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:24:58.144 [info] <0.778.0> GET /car/update/car-2 [crud] 200 51ms
+2016-05-09 15:25:01.377 [notice] <0.781.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:25:01.387 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:25:01.390 [info] <0.781.0> Route: "/car/update"Url
+[]
+2016-05-09 15:25:01.432 [notice] <0.781.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:25:01.467 [info] <0.781.0> POST /car/update [crud] 302 80ms
+2016-05-09 15:25:01.774 [notice] <0.783.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:25:01.777 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:25:01.784 [info] <0.783.0> Route: "/"Url
+[]
+2016-05-09 15:25:01.784 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:25:01.796 [notice] <0.783.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:25:01.815 [info] <0.783.0> GET / [crud] 200 38ms
+2016-05-09 15:25:33.201 [notice] <0.786.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:25:33.238 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:25:33.238 [info] <0.786.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:25:33.278 [info] <0.786.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:25:33.278 [notice] <0.786.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:25:33.358 [notice] <0.786.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:25:33.368 [info] <0.786.0> GET /car/update/car-2 [crud] 200 132ms
+2016-05-09 15:25:37.273 [notice] <0.789.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:25:37.344 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:25:37.348 [info] <0.789.0> Route: "/car/update"Url
+[]
+2016-05-09 15:25:37.359 [notice] <0.789.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:25:37.363 [info] <0.789.0> POST /car/update [crud] 302 31ms
+2016-05-09 15:25:37.673 [notice] <0.791.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:25:37.674 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:25:37.675 [info] <0.791.0> Route: "/"Url
+[]
+2016-05-09 15:25:37.675 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:25:37.688 [notice] <0.791.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:25:37.704 [info] <0.791.0> GET / [crud] 200 29ms
+2016-05-09 15:28:11.699 [notice] <0.794.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:28:11.703 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:28:11.707 [info] <0.794.0> Route: "/"Url
+[]
+2016-05-09 15:28:11.707 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:28:11.713 [info] <0.794.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:28:11.713 [notice] <0.794.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:28:11.783 [notice] <0.794.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:28:11.797 [info] <0.794.0> GET / [crud] 200 93ms
+2016-05-09 15:28:14.272 [notice] <0.797.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:28:14.278 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:28:14.281 [info] <0.797.0> Route: "/car/update/car-8"Url
+[]
+2016-05-09 15:28:14.295 [notice] <0.797.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-8"]
+2016-05-09 15:28:14.307 [info] <0.797.0> GET /car/update/car-8 [crud] 200 28ms
+2016-05-09 15:28:18.215 [notice] <0.799.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:28:18.218 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:28:18.221 [info] <0.799.0> Route: "/car/update"Url
+[]
+2016-05-09 15:28:18.232 [notice] <0.799.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:28:18.238 [info] <0.799.0> POST /car/update [crud] 302 18ms
+2016-05-09 15:28:18.467 [notice] <0.801.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:28:18.469 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:28:18.474 [info] <0.801.0> Route: "/"Url
+[]
+2016-05-09 15:28:18.474 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:28:18.483 [notice] <0.801.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:28:18.497 [info] <0.801.0> GET / [crud] 200 27ms
+2016-05-09 15:28:22.569 [notice] <0.803.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:28:22.572 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:28:22.575 [info] <0.803.0> Route: "/"Url
+[]
+2016-05-09 15:28:22.575 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:28:22.587 [notice] <0.803.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:28:22.599 [info] <0.803.0> GET / [crud] 200 26ms
+2016-05-09 15:31:41.144 [notice] <0.805.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:31:41.149 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:31:41.155 [info] <0.805.0> Route: "/car/update/car-8"Url
+[]
+2016-05-09 15:31:41.169 [info] <0.805.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:31:41.169 [notice] <0.805.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:31:41.195 [notice] <0.805.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-8"]
+2016-05-09 15:31:41.213 [info] <0.805.0> GET /car/update/car-8 [crud] 200 53ms
+2016-05-09 15:31:44.458 [notice] <0.808.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:31:44.487 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:31:44.514 [info] <0.808.0> Route: "/car/update"Url
+[]
+2016-05-09 15:31:44.520 [notice] <0.808.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:31:44.522 [error] <0.808.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,new,["car-8"],[]},{crud_car_controller,update,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,31}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 15:31:44.527 [error] <0.808.0> Error in controller, see console.log for details
+
+2016-05-09 15:31:44.527 [error] <0.808.0> POST /car/update [crud] 500 39ms
+2016-05-09 15:32:03.596 [notice] <0.812.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:32:03.600 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:32:03.602 [info] <0.812.0> Route: "/"Url
+[]
+2016-05-09 15:32:03.602 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:32:03.614 [notice] <0.812.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:32:03.629 [info] <0.812.0> GET / [crud] 200 29ms
+2016-05-09 15:33:19.426 [notice] <0.814.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:33:19.433 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:33:19.436 [info] <0.814.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:33:19.445 [info] <0.814.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:33:19.445 [notice] <0.814.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:33:19.474 [notice] <0.814.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:33:19.485 [info] <0.814.0> GET /car/update/car-2 [crud] 200 52ms
+2016-05-09 15:33:22.937 [notice] <0.817.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:33:22.952 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:33:22.974 [info] <0.817.0> Route: "/car/update"Url
+[]
+2016-05-09 15:33:22.986 [notice] <0.817.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:33:22.995 [info] <0.817.0> POST /car/update [crud] 302 42ms
+2016-05-09 15:33:23.309 [notice] <0.819.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:33:23.311 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:33:23.314 [info] <0.819.0> Route: "/"Url
+[]
+2016-05-09 15:33:23.314 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:33:23.512 [notice] <0.819.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:33:23.527 [info] <0.819.0> GET / [crud] 200 214ms
+2016-05-09 15:34:08.209 [notice] <0.822.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:34:08.212 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:34:08.215 [info] <0.822.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:34:08.220 [info] <0.822.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:34:08.220 [notice] <0.822.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:34:08.247 [notice] <0.822.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:34:08.256 [info] <0.822.0> GET /car/update/car-2 [crud] 200 43ms
+2016-05-09 15:34:11.565 [notice] <0.825.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:34:11.580 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:34:11.586 [info] <0.825.0> Route: "/car/update"Url
+[]
+2016-05-09 15:34:11.615 [notice] <0.825.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:34:11.622 [info] <0.825.0> POST /car/update [crud] 302 41ms
+2016-05-09 15:34:11.929 [notice] <0.827.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:34:11.931 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:34:11.934 [info] <0.827.0> Route: "/"Url
+[]
+2016-05-09 15:34:11.934 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:34:11.944 [notice] <0.827.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:34:11.958 [info] <0.827.0> GET / [crud] 200 26ms
+2016-05-09 15:34:16.719 [notice] <0.829.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:34:16.722 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:34:16.725 [info] <0.829.0> Route: "/"Url
+[]
+2016-05-09 15:34:16.725 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:34:16.732 [notice] <0.829.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:34:16.747 [info] <0.829.0> GET / [crud] 200 24ms
+2016-05-09 15:36:30.399 [notice] <0.831.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:36:30.406 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:36:30.408 [info] <0.831.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:36:30.414 [info] <0.831.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:36:30.414 [notice] <0.831.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:36:30.456 [notice] <0.831.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:36:30.470 [info] <0.831.0> GET /car/update/car-2 [crud] 200 63ms
+2016-05-09 15:36:33.742 [notice] <0.834.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:36:33.764 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:36:33.776 [info] <0.834.0> Route: "/car/update"Url
+[]
+2016-05-09 15:36:33.794 [notice] <0.834.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:36:33.800 [info] <0.834.0> POST /car/update [crud] 302 35ms
+2016-05-09 15:36:34.108 [notice] <0.836.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:36:34.110 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:36:34.113 [info] <0.836.0> Route: "/"Url
+[]
+2016-05-09 15:36:34.113 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:36:34.120 [notice] <0.836.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:36:34.134 [info] <0.836.0> GET / [crud] 200 23ms
+2016-05-09 15:36:37.663 [notice] <0.838.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:36:37.670 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:36:37.673 [info] <0.838.0> Route: "/car/delete/car-8"Url
+[]
+2016-05-09 15:36:37.683 [notice] <0.838.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-8"]
+2016-05-09 15:36:37.728 [info] <0.838.0> GET /car/delete/car-8 [crud] 302 58ms
+2016-05-09 15:36:38.035 [notice] <0.840.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:36:38.037 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:36:38.040 [info] <0.840.0> Route: "/"Url
+[]
+2016-05-09 15:36:38.040 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:36:38.051 [notice] <0.840.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:36:38.066 [info] <0.840.0> GET / [crud] 200 28ms
+2016-05-09 15:36:40.279 [notice] <0.842.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:36:40.286 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:36:40.295 [info] <0.842.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:36:40.312 [notice] <0.842.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:36:40.331 [info] <0.842.0> GET /car/update/car-2 [crud] 200 46ms
+2016-05-09 15:37:23.730 [notice] <0.844.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:37:23.733 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:37:23.736 [info] <0.844.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:37:23.743 [notice] <0.844.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:37:23.793 [info] <0.844.0> GET /car/update/car-2 [crud] 200 61ms
+2016-05-09 15:37:34.447 [notice] <0.848.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:37:34.451 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:37:34.455 [info] <0.848.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:37:34.463 [notice] <0.848.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:37:34.605 [info] <0.848.0> GET /car/update/car-2 [crud] 200 77ms
+2016-05-09 15:37:41.371 [notice] <0.854.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:37:41.373 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:37:41.375 [info] <0.854.0> Route: "/car/update"Url
+[]
+2016-05-09 15:37:41.381 [notice] <0.854.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:37:41.387 [info] <0.854.0> POST /car/update [crud] 302 13ms
+2016-05-09 15:37:41.622 [notice] <0.856.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:37:41.623 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:37:41.625 [info] <0.856.0> Route: "/"Url
+[]
+2016-05-09 15:37:41.625 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:37:41.640 [notice] <0.856.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:37:41.665 [info] <0.856.0> GET / [crud] 200 29ms
+2016-05-09 15:38:07.649 [notice] <0.859.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:38:07.655 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:38:07.659 [info] <0.859.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:38:07.665 [info] <0.859.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:38:07.666 [notice] <0.859.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:38:07.696 [notice] <0.859.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:38:07.709 [info] <0.859.0> GET /car/update/car-2 [crud] 200 52ms
+2016-05-09 15:38:17.363 [notice] <0.863.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:38:17.365 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:38:17.368 [info] <0.863.0> Route: "/car/update"Url
+[]
+2016-05-09 15:38:17.375 [notice] <0.863.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:38:17.380 [info] <0.863.0> POST /car/update [crud] 302 14ms
+2016-05-09 15:38:17.614 [notice] <0.865.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:38:17.617 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:38:17.621 [info] <0.865.0> Route: "/"Url
+[]
+2016-05-09 15:38:17.621 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:38:17.641 [notice] <0.865.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:38:17.654 [info] <0.865.0> GET / [crud] 200 37ms
+2016-05-09 15:38:20.944 [notice] <0.867.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:38:20.946 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:38:20.948 [info] <0.867.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:38:20.961 [notice] <0.867.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:38:20.971 [info] <0.867.0> GET /car/update/car-2 [crud] 200 23ms
+2016-05-09 15:38:32.387 [notice] <0.869.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:38:32.395 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:38:32.396 [info] <0.869.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:38:32.404 [info] <0.869.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:38:32.404 [notice] <0.869.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:38:32.448 [notice] <0.869.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:38:32.463 [info] <0.869.0> GET /car/update/car-2 [crud] 200 69ms
+2016-05-09 15:38:37.665 [notice] <0.872.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:38:37.678 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:38:37.684 [info] <0.872.0> Route: "/car/update"Url
+[]
+2016-05-09 15:38:37.702 [notice] <0.872.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:38:37.710 [info] <0.872.0> POST /car/update [crud] 302 31ms
+2016-05-09 15:38:37.772 [notice] <0.873.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:38:37.775 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:38:37.796 [info] <0.873.0> Route: "/"Url
+[]
+2016-05-09 15:38:37.796 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:38:37.803 [notice] <0.873.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:38:37.816 [info] <0.873.0> GET / [crud] 200 41ms
+2016-05-09 15:55:20.392 [notice] <0.877.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:55:20.397 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:55:20.398 [info] <0.877.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:55:20.404 [info] <0.877.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:55:20.404 [notice] <0.877.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:55:20.431 [notice] <0.877.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:55:20.441 [info] <0.877.0> GET /car/update/car-2 [crud] 200 43ms
+2016-05-09 15:55:24.554 [notice] <0.880.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:55:24.586 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:55:24.604 [info] <0.880.0> Route: "/car/update"Url
+[]
+2016-05-09 15:55:24.625 [notice] <0.880.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:55:24.634 [info] <0.880.0> POST /car/update [crud] 302 57ms
+2016-05-09 15:55:24.941 [notice] <0.882.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:55:24.942 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:55:24.945 [info] <0.882.0> Route: "/"Url
+[]
+2016-05-09 15:55:24.945 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:55:24.957 [notice] <0.882.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:55:24.969 [info] <0.882.0> GET / [crud] 200 26ms
+2016-05-09 15:55:29.629 [notice] <0.884.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:55:29.631 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:55:29.633 [info] <0.884.0> Route: "/"Url
+[]
+2016-05-09 15:55:29.633 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:55:29.647 [notice] <0.884.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:55:29.661 [info] <0.884.0> GET / [crud] 200 28ms
+2016-05-09 15:55:47.837 [notice] <0.886.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:55:47.839 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:55:47.841 [info] <0.886.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 15:55:47.846 [info] <0.886.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:55:47.846 [notice] <0.886.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:55:47.872 [notice] <0.886.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 15:55:47.882 [info] <0.886.0> GET /car/update/car-2 [crud] 200 41ms
+2016-05-09 15:55:51.284 [notice] <0.889.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:55:51.319 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:55:51.340 [info] <0.889.0> Route: "/car/update"Url
+[]
+2016-05-09 15:55:51.362 [notice] <0.889.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:55:51.407 [error] <0.889.0>@boss_web_controller_render:render_with_template:272 Error in view crud_view_car_update_html error:badarg Stacktrace: [{lists,keyfind,[car,1,
+               [{"_vars",
+                 [{"_lang","en"},
+                  {"_session",[]},
+                  {"_req",
+                   {simple_bridge_request_wrapper,mochiweb_request_bridge,
+                    {mochicow_request,#Port<0.42823>,'POST',"/car/update",
+                     'HTTP/1.1',
+                     {13,
+                      {"host",
+                       {"host","localhost:8001"},
+                       {"connection",
+                        {"connection","keep-alive"},
+                        {"cache-control",
+                         {"cache-control","max-age=0"},
+                         {"accept",
+                          {"accept",
+                           "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},
+                          nil,
+                          {"accept-encoding",
+                           {"accept-encoding","gzip, deflate"},
+                           nil,
+                           {"accept-language",
+                            {"accept-language","en-US,en;q=0.8"},
+                            nil,nil}}},
+                         nil},
+                        {"content-length",
+                         {"content-length","31"},
+                         nil,
+                         {"content-type",
+                          {"content-type","application/x-www-form-urlencoded"},
+                          nil,
+                          {"cookie",
+                           {"cookie",
+                            "Profiler=open; connect.sid=s%3A80Gzun2u_-1lmrIN5vt3namVI9MJUQV0.TtpS3eplLHT8A4XpKF8YedxJYPTQYWkmPWKzg3HMAqM; PHPSESSID=8mf8ppovsi59ulpvdtugc64di3; __atuvc=3%7C16; language=en; currency=USD; SID=nonode@nohost-259646713185873810545128483453369133934; _ga=GA1.1.1215438066.1457924905; __utma=111872281.1215438066.1457924905.1462414769.1462524836.14; __utmc=111872281; __utmz=111872281.1460340314.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%220c02b3d16ff2bb26b6116bf0018d5a14%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A3%3A%22%3A%3A1%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A108%3A%22Mozilla%2F5.0+%28Windows+NT+6.3%3B+WOW64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F50.0.2661.94+Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1462777281%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Dc06808bf84f375ba07acf714c6e5a17a82a5b07f"},
+                           nil,nil}}}},
+                       {"origin",
+                        {"origin","http://localhost:8001"},
+                        nil,
+                        {"upgrade-insecure-requests",
+                         {"upgrade-insecure-requests","1"},
+                         {"referer",
+                          {"referer","http://localhost:8001/car/update/car-2"},
+                          nil,nil},
+                         {"user-agent",
+                          {"user-agent",
+                           "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36"},
+                          nil,nil}}}}},
+                     <<"type=saga1&color=brown&id=car-2">>},
+                    false,[],[],none}},
+                  {"_base_url",[]}|
+                  {car,"car-2","saga","brown"}]},
+                {"_lang","en"},
+                {"_session",[]},
+                {"_req",
+                 {simple_bridge_request_wrapper,mochiweb_request_bridge,
+                  {mochicow_request,#Port<0.42823>,'POST',"/car/update",
+                   'HTTP/1.1',
+                   {13,
+                    {"host",
+                     {"host","localhost:8001"},
+                     {"connection",
+                      {"connection","keep-alive"},
+                      {"cache-control",
+                       {"cache-control","max-age=0"},
+                       {"accept",
+                        {"accept",
+                         "text/html,application/xhtml+xml,applicati...
+2016-05-09 15:55:51.413 [error] <0.889.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: error:function_clause Stacktrace: [{boss_web_controller_handle_request,process_result,[{boss_app_info,crud,[],
+                                                    "/static","/doc",all,
+                                                    [{crud_01_news,[]}],
+                                                    <0.261.0>,<0.262.0>,
+                                                    <0.264.0>,<0.265.0>,
+                                                    ["car"],
+                                                    [],
+                                                    ["crud_car_controller"]},
+                                                   {simple_bridge_request_wrapper,
+                                                    mochiweb_request_bridge,
+                                                    {mochicow_request,
+                                                     #Port<0.42823>,'POST',
+                                                     "/car/update",'HTTP/1.1',
+                                                     {13,
+                                                      {"host",
+                                                       {"host",
+                                                        "localhost:8001"},
+                                                       {"connection",
+                                                        {"connection",
+                                                         "keep-alive"},
+                                                        {"cache-control",
+                                                         {"cache-control",
+                                                          "max-age=0"},
+                                                         {"accept",
+                                                          {"accept",
+                                                           "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},
+                                                          nil,
+                                                          {"accept-encoding",
+                                                           {"accept-encoding",
+                                                            "gzip, deflate"},
+                                                           nil,
+                                                           {"accept-language",
+                                                            {"accept-language",
+                                                             "en-US,en;q=0.8"},
+                                                            nil,nil}}},
+                                                         nil},
+                                                        {"content-length",
+                                                         {"content-length",
+                                                          "31"},
+                                                         nil,
+                                                         {"content-type",
+                                                          {"content-type",
+                                                           "application/x-www-form-urlencoded"},
+                                                          nil,
+                                                          {"cookie",
+                                                           {"cookie",
+                                                            "Profiler=open; connect.sid=s%3A80Gzun2u_-1lmrIN5vt3namVI9MJUQV0.TtpS3eplLHT8A4XpKF8YedxJYPTQYWkmPWKzg3HMAqM; PHPSESSID=8mf8ppovsi59ulpvdtugc64di3; __atuvc=3%7C16; language=en; currency=USD; SID=nonode@nohost-259646713185873810545128483453369133934; _ga=GA1.1.1215438066.1457924905; __utma=111872281.1215438066.1457924905.1462414769.1462524836.14; __utmc=111872281; __utmz=111872281.1460340314.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%220c02b3d16ff2bb26b6116bf0018d5a14%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A3%3A%2...
+2016-05-09 15:56:07.036 [notice] <0.891.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:56:07.039 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:56:07.042 [info] <0.891.0> Route: "/car/update"Url
+[]
+2016-05-09 15:56:07.051 [info] <0.891.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 15:56:07.051 [notice] <0.891.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 15:56:07.100 [notice] <0.891.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 15:56:07.106 [info] <0.891.0> POST /car/update [crud] 302 67ms
+2016-05-09 15:56:07.413 [notice] <0.894.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 15:56:07.414 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 15:56:07.418 [info] <0.894.0> Route: "/"Url
+[]
+2016-05-09 15:56:07.418 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 15:56:07.427 [notice] <0.894.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 15:56:07.436 [info] <0.894.0> GET / [crud] 200 22ms
+2016-05-09 16:10:04.406 [notice] <0.897.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:10:04.412 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:10:04.413 [info] <0.897.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 16:10:04.421 [info] <0.897.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 16:10:04.421 [notice] <0.897.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 16:10:04.467 [notice] <0.897.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 16:10:04.484 [info] <0.897.0> GET /car/update/car-2 [crud] 200 65ms
+2016-05-09 16:10:07.875 [notice] <0.900.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:10:07.894 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:10:07.920 [info] <0.900.0> Route: "/car/update"Url
+[]
+2016-05-09 16:10:07.932 [notice] <0.900.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 16:10:07.933 [error] <0.900.0>@boss_web_controller:call_controller_action:319 Error in controller error:undef Stacktrace: [{car,new,[id,"car-2"],[]},{crud_car_controller,update,3,[{file,"c:/erlang/crud/src/controller/crud_car_controller.erl"},{line,32}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,316}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,308}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,287}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,250}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,236}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]
+2016-05-09 16:10:07.937 [error] <0.900.0> Error in controller, see console.log for details
+
+2016-05-09 16:10:07.947 [error] <0.900.0> POST /car/update [crud] 500 51ms
+2016-05-09 16:11:36.500 [notice] <0.904.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:11:36.502 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:11:36.504 [info] <0.904.0> Route: "/car/update"Url
+[]
+2016-05-09 16:11:36.509 [info] <0.904.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 16:11:36.509 [notice] <0.904.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 16:11:36.536 [notice] <0.904.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 16:11:36.543 [info] <0.904.0> POST /car/update [crud] 302 40ms
+2016-05-09 16:11:36.751 [notice] <0.907.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:11:36.753 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:11:36.758 [info] <0.907.0> Route: "/"Url
+[]
+2016-05-09 16:11:36.758 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 16:11:36.774 [notice] <0.907.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 16:11:36.786 [info] <0.907.0> GET / [crud] 200 33ms
+2016-05-09 16:11:39.310 [notice] <0.909.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:11:39.313 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:11:39.315 [info] <0.909.0> Route: "/car/update/car-1"Url
+[]
+2016-05-09 16:11:39.331 [notice] <0.909.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-1"]
+2016-05-09 16:11:39.343 [info] <0.909.0> GET /car/update/car-1 [crud] 200 30ms
+2016-05-09 16:11:42.089 [notice] <0.911.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:11:42.103 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:11:42.127 [info] <0.911.0> Route: "/car/update"Url
+[]
+2016-05-09 16:11:42.143 [notice] <0.911.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 16:11:42.149 [info] <0.911.0> POST /car/update [crud] 302 45ms
+2016-05-09 16:11:42.333 [notice] <0.913.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:11:42.336 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:11:42.340 [info] <0.913.0> Route: "/"Url
+[]
+2016-05-09 16:11:42.340 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 16:11:42.359 [notice] <0.913.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 16:11:42.377 [info] <0.913.0> GET / [crud] 200 40ms
+2016-05-09 16:21:22.020 [notice] <0.916.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:21:22.022 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:21:22.023 [info] <0.916.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 16:21:22.028 [info] <0.916.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 16:21:22.028 [notice] <0.916.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 16:21:22.078 [notice] <0.916.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 16:21:22.091 [info] <0.916.0> GET /car/update/car-2 [crud] 200 63ms
+2016-05-09 16:21:27.282 [notice] <0.919.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:21:27.330 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:21:27.335 [info] <0.919.0> Route: "/car/update"Url
+[]
+2016-05-09 16:21:27.354 [notice] <0.919.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 16:21:27.360 [info] <0.919.0> POST /car/update [crud] 302 43ms
+2016-05-09 16:21:27.666 [notice] <0.921.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:21:27.667 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:21:27.671 [info] <0.921.0> Route: "/"Url
+[]
+2016-05-09 16:21:27.671 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 16:21:27.689 [notice] <0.921.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 16:21:27.701 [info] <0.921.0> GET / [crud] 200 32ms
+2016-05-09 16:21:35.651 [notice] <0.924.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:21:35.660 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:21:35.662 [info] <0.924.0> Route: "/"Url
+[]
+2016-05-09 16:21:35.664 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 16:21:35.675 [notice] <0.924.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 16:21:35.694 [info] <0.924.0> GET / [crud] 200 34ms
+2016-05-09 16:26:25.765 [notice] <0.927.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:26:25.770 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:26:25.772 [info] <0.927.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 16:26:25.794 [info] <0.927.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 16:26:25.794 [notice] <0.927.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 16:26:25.811 [notice] <0.927.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 16:26:25.821 [info] <0.927.0> GET /car/update/car-2 [crud] 200 51ms
+2016-05-09 16:26:30.370 [notice] <0.930.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:26:30.384 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:26:30.386 [info] <0.930.0> Route: "/car/update"Url
+[]
+2016-05-09 16:26:30.419 [notice] <0.930.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 16:26:30.426 [info] <0.930.0> POST /car/update [crud] 302 42ms
+2016-05-09 16:26:30.735 [notice] <0.932.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:26:30.737 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:26:30.738 [info] <0.932.0> Route: "/"Url
+[]
+2016-05-09 16:26:30.738 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 16:26:30.748 [notice] <0.932.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 16:26:30.759 [info] <0.932.0> GET / [crud] 200 23ms
+2016-05-09 16:26:34.722 [notice] <0.934.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:26:34.726 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:26:34.728 [info] <0.934.0> Route: "/car/update/car-2"Url
+[]
+2016-05-09 16:26:34.735 [notice] <0.934.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-2"]
+2016-05-09 16:26:34.746 [info] <0.934.0> GET /car/update/car-2 [crud] 200 20ms
+2016-05-09 16:26:38.516 [notice] <0.936.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:26:38.519 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:26:38.521 [info] <0.936.0> Route: "/car/update"Url
+[]
+2016-05-09 16:26:38.539 [notice] <0.936.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 16:26:38.544 [info] <0.936.0> POST /car/update [crud] 302 25ms
+2016-05-09 16:26:38.770 [notice] <0.938.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:26:38.772 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:26:38.773 [info] <0.938.0> Route: "/"Url
+[]
+2016-05-09 16:26:38.774 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 16:26:38.783 [notice] <0.938.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 16:26:38.796 [info] <0.938.0> GET / [crud] 200 24ms
+2016-05-09 16:26:41.395 [notice] <0.940.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:26:41.410 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:26:41.411 [info] <0.940.0> Route: "/car/update/car-1"Url
+[]
+2016-05-09 16:26:41.422 [notice] <0.940.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: ["car-1"]
+2016-05-09 16:26:41.432 [info] <0.940.0> GET /car/update/car-1 [crud] 200 20ms
+2016-05-09 16:26:44.881 [notice] <0.942.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:26:44.883 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:26:44.885 [info] <0.942.0> Route: "/car/update"Url
+[]
+2016-05-09 16:26:44.896 [notice] <0.942.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-05-09 16:26:44.901 [info] <0.942.0> POST /car/update [crud] 302 17ms
+2016-05-09 16:26:45.131 [notice] <0.944.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:26:45.137 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:26:45.139 [info] <0.944.0> Route: "/"Url
+[]
+2016-05-09 16:26:45.139 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 16:26:45.149 [notice] <0.944.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 16:26:45.161 [info] <0.944.0> GET / [crud] 200 23ms
+2016-05-09 16:31:49.369 [notice] <0.947.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath crud
+2016-05-09 16:31:49.377 [info] <0.262.0> Loading routes from "c:/erlang/crud/priv/crud.routes" ....
+2016-05-09 16:31:49.379 [info] <0.947.0> Route: "/"Url
+[]
+2016-05-09 16:31:49.379 [info] <0.262.0>@boss_router_controller:route:171 Boss Route crud "car" "list" []
+2016-05-09 16:31:49.389 [info] <0.947.0>@boss_controller_compiler:compile:59 Compile controller c:/erlang/crud/src/controller/crud_car_controller.erl
+2016-05-09 16:31:49.390 [notice] <0.947.0>@boss_compiler:compile:47 Compile file "c:/erlang/crud/src/controller/crud_car_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["c:/erlang/crud/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-05-09 16:31:49.422 [notice] <0.947.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-05-09 16:31:49.441 [info] <0.947.0> GET / [crud] 200 64ms
